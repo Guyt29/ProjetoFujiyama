@@ -47,3 +47,26 @@ button.accept-policy[b-x4q4h8vyzu] {
   white-space: nowrap;
   line-height: 60px;
 }
+/* _content/projetoFuji/Views/Shared/_LayoutDash.cshtml.rz.scp.css */
+.sideBar[b-u6a57523it] {
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: rgb(14, 15, 14);
+    color: white;
+    padding: 20px;
+}
+
+.container-fluid[b-u6a57523it] {
+    margin-left: 250px; /* mesma largura da sidebar */
+}
+body[b-u6a57523it]{
+    background-color: aliceblue
+}
+a[b-u6a57523it]{
+    font-size: 1rem;
+    text-decoration: none;
+    color: white;
+}
