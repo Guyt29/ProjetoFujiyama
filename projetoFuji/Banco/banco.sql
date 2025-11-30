@@ -6,7 +6,7 @@ CREATE TABLE tbFornecedor(
 	CNPJ char(14) PRIMARY KEY,
     nome varchar(100) NOT NULL,
     endereco varchar(200),
-    telefone decimal(11,0),
+    telefone char(11),
     email varchar(100)
 );
 
@@ -42,7 +42,7 @@ CREATE TABLE tbPessoa(
     email varchar(100) not null, 
     genero char(1)  not null,
     idade tinyint not null, 
-    telefone decimal(11,0) not null
+    telefone char(11) not null
 );
 
 CREATE TABLE tbFuncionarios(

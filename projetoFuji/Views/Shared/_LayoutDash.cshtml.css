@@ -4,7 +4,7 @@
     position: fixed;
     left: 0;
     top: 0;
-    background-color: rgb(14, 15, 14);
+    background-color: white;
     color: white;
     padding: 20px;
 }
@@ -15,8 +15,22 @@
 body{
     background-color: aliceblue
 }
-a{
+.sideBar hr {
+    border: 1px solid #000f;
+    opacity: 0.75;
+}
+.dropdown-item{
+    font-size: 1rem;
+}
+.marca h1 {
+    color: #202224;
+    font-family: "Nunito Sans", sans-serif;
+}
+a {
     font-size: 1.5rem;
     text-decoration: none;
-    color: white;
+    color: #202224;
+}
+.container-fluid.fundoBranco {
+    min-height: 100vh; /* ocupa a tela toda */
 }

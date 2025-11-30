@@ -10,12 +10,12 @@ namespace projetoFuji.Models
         [Required]
         [Display(Name = "Nome do Fornecedor")]
         public string? Nome { get; set; }
-        [len]
         [Display(Name = "Endereco do Produto")]
         public string? Endereco { get; set; }
-        [Range(00000000000, 99999999999)]
+
         [Display(Name = "Telefone do fornecedor")]
-        public int? Telefone { get; set; }
+        [Length(11, 11)]
+        public string? Telefone { get; set; }
         [Display(Name ="Email do fornecedor")]
         public string? Email { get; set; }
 
