@@ -1,0 +1,101 @@
+﻿@model IEnumerable<projetoFuji.Models.CadastroFuncionarioViewModel>
+
+@{
+    ViewData["Title"] = "Listar";
+    Layout = "_LayoutDash";
+}
+
+<nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item d-flex align-items-center"><a asp-area="" asp-controller="Admin" asp-action="DashBoard"><h2 class="breadCrumbText">Home</h2></a></li>
+        <li class="breadcrumb-item d-flex align-items-center"><a asp-area="" asp-controller="Funcionario" asp-action="Listar"><h2 class="breadCrumbText">Funcionario</h2></a></li>
+        <li class="breadcrumb-item d-flex align-items-center"><a asp-area="" asp-controller="Funcionario" asp-action="Editar"><h2 class="breadCrumbText">Editar</h2></a></li>
+    </ol>
+</nav>
+
+<p>
+    <a asp-action="Cadastrar">Adicionar</a>
+</p>
+<table class="table listar bg-white">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Pessoa.Cpf)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Pessoa.Nome)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Pessoa.Email)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Pessoa.Genero)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Pessoa.Idade)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Pessoa.Telefone)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Funcionario.Supervisor)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Funcionario.Funcao)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Funcionario.Salario)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Funcionario.DataDeAdmissao)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Funcionario.DataDemissao)
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Pessoa.Cpf)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Pessoa.Nome)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Pessoa.Email)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Pessoa.Genero)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Pessoa.Idade)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Pessoa.Telefone)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Funcionario.Supervisor)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Funcionario.Funcao)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Funcionario.Salario)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Funcionario.DataDeAdmissao)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Funcionario.DataDemissao)
+                </td>
+                <td class="grupo">
+                    @Html.ActionLink("Editar", "Editar", new { cpf = item.Pessoa.Cpf }) |
+                    @Html.ActionLink("Demitir", "Demitir", new { cpf = item.Pessoa.Cpf }, new { onclick = "return confirm('Deseja demitir?');" })
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -35,8 +35,9 @@ namespace projetoFuji.Controllers
             command.Parameters.AddWithValue("@email", fornecedor.Email);
 
 
-
+            
             command.ExecuteNonQuery(); //executa
+
 
             return RedirectToAction("Listar", "Fornecedor"); //volta pra lista
 

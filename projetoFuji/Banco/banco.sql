@@ -1,4 +1,4 @@
-CREATE DATABASE dbFujiyama;
+/*CREATE DATABASE dbFujiyama;
 USE dbFujiyama;
 
 
@@ -39,13 +39,14 @@ CREATE TABLE tbProdutoCategoria(
 
 CREATE TABLE tbPessoa(
 	Cpf decimal(11,0) primary key,
+    nome varchar(200) not null,
     email varchar(100) not null, 
     genero char(1)  not null,
     idade tinyint not null, 
     telefone char(11) not null
 );
 
-CREATE TABLE tbFuncionarios(
+CREATE TABLE tbFuncionario(
 	Cpf decimal(11,0) PRIMARY KEY, 
     Supervisor decimal(11,0),
     funcao varchar(75) not null,
@@ -90,3 +91,65 @@ CREATE TABLE tbItemProduto(
     foreign key (CodigoBarras) references tbProduto (Codigo_de_Barras),
     foreign key (Nf) references tbVenda(NF)
 );
+
+
+-- PROCEDURES
+DELIMITER $$
+CREATE PROCEDURE sp_insert_Pessoa(vCPF decimal(11,0), vNome varchar(200), vEmail varchar(100), vGenero char(1), vIdade tinyint, vTelefone char(11))
+BEGIN
+	IF NOT EXISTS(SELECT CPF from TBPESSOA WHERE CPF = vCpf) THEN
+		INSERT INTO tbPessoa VALUES (vCpf, vNome, vEmail, vGenero, vIdade, vTelefone);
+	END IF;
+    
+END $$
+
+
+DELIMITER $$
+CREATE PROCEDURE sp_insert_Funcionario(vCpf decimal(11,0), vNome varchar(200), vEmail varchar(100), vGenero char(1), vIdade tinyint, vTelefone char(11), vSupervisor decimal(11,0), vFuncao varchar(75), vSalario decimal(8,2), vDataDeAdmissao date, vDataDemissao date)
+BEGIN
+	IF NOT EXISTS(SELECT CPF from TBPESSOA WHERE CPF = vCpf) THEN
+		CALL sp_insert_Pessoa(vCpf, vNome, vEmail, vGenero, vIdade, vTelefone);
+    END IF;
+	INSERT INTO tbFuncionarios VALUES (vCpf, vSupervisor, vFuncao, vSalario, vDataDeAdmissao, vDataDemissao);
+    
+END $$
+
+DELIMITER $$
+CREATE PROCEDURE sp_update_Funcionario(vCpf decimal(11,0), vNome varchar(200), vEmail varchar(100), vGenero char(1), vIdade tinyint, vTelefone char(11), vSupervisor decimal(11,0), vFuncao varchar(75), vSalario decimal(8,2), vDataDeAdmissao date, vDataDemissao date)
+BEGIN
+	UPDATE tbPessoa SET
+    nome = vNome,
+    email = vEmail,
+    genero= vGenero,
+    idade = vIdade,
+    telefone = vTelefone
+    WHERE Cpf = vCpf;
+    
+    UPDATE tbFuncionario SET
+    Supervisor = vSupervisor,
+    funcao = vFuncao,
+    salario = vSalario,
+    dataDeAdmissao = vDataDeAdmissao,
+    dataDemissao = vDataDemissao
+    WHERE Cpf = vCpf;
+END $$
+
+DELIMITER $$
+CREATE PROCEDURE sp_demitir_Funcionario(vCpf decimal(11,0))
+BEGIN
+
+    UPDATE tbFuncionarios SET
+    dataDemissao = current_date()
+    WHERE Cpf = vCpf;
+END $$
+
+
+
+select * from tbPessoa;
+select * from TBFuncionarioS;
+            SELECT 
+                p.Cpf, p.Nome, p.Email, p.Genero, p.Idade, p.Telefone,
+                f.Supervisor, f.Funcao, f.Salario, f.DataDeAdmissao, f.DataDemissao
+            FROM tbPessoa p
+            INNER JOIN tbFuncionarios f ON p.Cpf = f.Cpf;
+
