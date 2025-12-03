@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\gustavo\\Documents\\ProjetoFujiyama\\projetoFuji\\projetoFuji.csproj": {}
+    "C:\\Users\\gustavo\\Desktop\\asas\\projetoFuji\\projetoFuji.csproj": {}
   },
   "projects": {
-    "C:\\Users\\gustavo\\Documents\\ProjetoFujiyama\\projetoFuji\\projetoFuji.csproj": {
+    "C:\\Users\\gustavo\\Desktop\\asas\\projetoFuji\\projetoFuji.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gustavo\\Documents\\ProjetoFujiyama\\projetoFuji\\projetoFuji.csproj",
+        "projectUniqueName": "C:\\Users\\gustavo\\Desktop\\asas\\projetoFuji\\projetoFuji.csproj",
         "projectName": "projetoFuji",
-        "projectPath": "C:\\Users\\gustavo\\Documents\\ProjetoFujiyama\\projetoFuji\\projetoFuji.csproj",
+        "projectPath": "C:\\Users\\gustavo\\Desktop\\asas\\projetoFuji\\projetoFuji.csproj",
         "packagesPath": "C:\\Users\\gustavo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gustavo\\Documents\\ProjetoFujiyama\\projetoFuji\\obj\\",
+        "outputPath": "C:\\Users\\gustavo\\Desktop\\asas\\projetoFuji\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

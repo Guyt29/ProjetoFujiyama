@@ -56,7 +56,6 @@
             </td>
             <td class="grupo">
                 @Html.ActionLink("Editar", "Editar", new { id=item.CNPJ}) |
-                @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
                 @Html.ActionLink("Deletar", "Deletar", new { CNPJ = item.CNPJ }, new { onclick = "return confirm('Deseja excluir');" })
             </td>
         </tr>

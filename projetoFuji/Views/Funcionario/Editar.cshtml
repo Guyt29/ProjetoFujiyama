@@ -1,0 +1,98 @@
+﻿@model projetoFuji.Models.CadastroFuncionarioViewModel
+
+@{
+    ViewData["Title"] = "Editar";
+    Layout = "_LayoutDash";
+}
+
+<nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item d-flex align-items-center"><a asp-area="" asp-controller="Admin" asp-action="DashBoard"><h2 class="breadCrumbText">Home</h2></a></li>
+        <li class="breadcrumb-item d-flex align-items-center"><a asp-area="" asp-controller="Funcionario" asp-action="Listar"><h2 class="breadCrumbText">Funcionario</h2></a></li>
+        <li class="breadcrumb-item d-flex align-items-center"><a asp-area="" asp-controller="Funcionario" asp-action="Editar"><h2 class="breadCrumbText">Editar</h2></a></li>
+    </ol>
+</nav>
+<h4>Fornecedor</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Editar">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Pessoa.Cpf" class="control-label"></label>
+                <input asp-for="Pessoa.Cpf" class="form-control" />
+                <span asp-validation-for="Pessoa.Cpf" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Pessoa.Nome" class="control-label"></label>
+                <input asp-for="Pessoa.Nome" class="form-control" />
+                <span asp-validation-for="Pessoa.Nome" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Pessoa.Genero" class="control-label"></label>
+                <input asp-for="Pessoa.Genero" class="form-control" />
+                <span asp-validation-for="Pessoa.Genero" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Pessoa.Telefone" class="control-label"></label>
+                <input asp-for="Pessoa.Telefone" class="form-control" />
+                <span asp-validation-for="Pessoa.Telefone" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Pessoa.Email" class="control-label"></label>
+                <input asp-for="Pessoa.Email" class="form-control" />
+                <span asp-validation-for="Pessoa.Email" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Pessoa.Idade" class="control-label"></label>
+                <input asp-for="Pessoa.Idade" class="form-control" />
+                <span asp-validation-for="Pessoa.Idade" class="text-danger"></span>
+            </div>
+            <hr />
+
+            <h5>Dados do Funcionário</h5>
+            <div class="form-group">
+                <label asp-for="Funcionario.Supervisor" class="control-label"></label>
+                <input asp-for="Funcionario.Supervisor" class="form-control" />
+                <span asp-validation-for="Funcionario.Supervisor" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Funcionario.Funcao" class="control-label"></label>
+                <input asp-for="Funcionario.Funcao" class="form-control" />
+                <span asp-validation-for="Funcionario.Funcao" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Funcionario.Salario" class="control-label"></label>
+                <input asp-for="Funcionario.Salario" class="form-control" />
+                <span asp-validation-for="Funcionario.Salario" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Funcionario.DataDeAdmissao" class="control-label"></label>
+                <input asp-for="Funcionario.DataDeAdmissao" type="date" class="form-control" />
+                <span asp-validation-for="Funcionario.DataDeAdmissao" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Funcionario.DataDemissao" class="control-label"></label>
+                <input asp-for="Funcionario.DataDemissao" type="date" class="form-control" />
+                <span asp-validation-for="Funcionario.DataDemissao" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
