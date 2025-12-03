@@ -7,16 +7,20 @@
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/projetoFuji.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/_LayoutDash.css" asp-append-version="true">
 </head>
 <body>
     <nav class="sideBar">
         <div class="marca">
-            <h1>Fujiyama</h1>
+            <a asp-area="" asp-controller="Admin" asp-action="DashBoard">
+                <h1><span>FUJI</span>YAMA</h1>
+            </a>
         </div>
         <hr/>
         <ul class="navbar-nav">
             <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <img src="~/assets/imagens/produtoIcon.svg" class="iconeDash" />
+                <a class="nav-link dropdown-toggle dashLink" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                     Produtos
                 </a>
                 <ul class="dropdown-menu">
@@ -25,7 +29,8 @@
                 </ul>
             </li>
             <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <img src="~/assets/imagens/fornecedorIcon.svg" class="iconeDash" />
+                <a class="nav-link dropdown-toggle dashLink" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                     Fornecedores
                 </a>
                 <ul class="dropdown-menu">
@@ -33,8 +38,11 @@
                     <li><a class="dropdown-item text-black" asp-area="" asp-controller="Fornecedor" asp-action="Listar">Editar</a></li>
                 </ul>
             </li>
+
             <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <img src="~/assets/imagens/carrinhoIcon.svg" class="iconeDash" />
+
+                <a class="nav-link dropdown-toggle dashLink" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                     Vendas
                 </a>
                 <ul class="dropdown-menu">
@@ -43,7 +51,9 @@
                 </ul>
             </li>
             <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <img src="~/assets/imagens/funcionarioIcon.svg" class="iconeDash" />
+
+                <a class="nav-link dropdown-toggle dashLink" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                     Funcionários
                 </a>
                 <ul class="dropdown-menu">
@@ -51,10 +61,34 @@
                     <li><a class="dropdown-item text-black" href="#">Editar</a></li>
                 </ul>
             </li>
+            <li class="nav-item dropdown">
+                <img src="~/assets/imagens/categoriaIcon.svg" class="iconeDash" />
+
+                <a class="nav-link dropdown-toggle dashLink" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Categorias
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item text-black" href="#">Cadastrar</a></li>
+                    <li><a class="dropdown-item text-black" href="#">Editar</a></li>
+                </ul>
+            </li>
         </ul>
+        <div class="containerUserInfo">
+            <hr />
+            <div class="infoUsuario d-flex flex-row">
+                <img src="~/assets/imagens/userIcon.svg" class="me-2 userIcon">
+                <div class="d-flex flex-column justify-content-between">
+                    <h4 class="text-black">Hideo Kojima</h4>
+                    <h5>CEO</h5>
+                </div>
+            </div>
+            <a id="logout" asp-controller="Home" asp-action="Index">
+                <img src="~/assets/imagens/logoutIcon.svg" />
+            </a>
+        </div>
     </nav>
-    <div class="container-fluid fundoBranco ps-0 pe-0">
-        <main role="main" class="pb-3 ps-3">
+    <div class="container-fluid flex-grow-1 fundoAzulado ps-0 pe-0">
+        <main role="main" class="pb-4 ps-4 pt-4">
             @RenderBody()
         </main>
     </div>

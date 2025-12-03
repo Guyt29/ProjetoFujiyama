@@ -1,0 +1,126 @@
+﻿
+
+.sideBar {
+    width: 15vw;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: white;
+    color: white;
+    padding: 20px;
+}
+
+.container-fluid {
+    margin-left: 15vw; 
+}
+body{
+    background-color: aliceblue;
+    overflow-x: hidden;
+    display: flex;
+}
+.sideBar hr {
+    border: 1.5px solid rgb(128, 128, 128);
+    width: calc(100% + 40px);
+    margin-left: -20px;
+    margin-right: -20px;
+}
+.dropdown-item{
+    font-size: 1rem;
+}
+.marca{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px
+}
+.marca span{
+    color: red;
+}
+.marca h1 {
+    font-size: 30px;
+    color: var(--azulTitulo);
+    font-family: "IntegralCF", sans-serif;
+    font-weight: bold;
+}
+.dashLink {
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: #4B77FF;
+}
+.container-fluid.fundoBranco {
+    min-height: 100vh; 
+}
+.iconeDash {
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+}
+.dropdown{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.userIcon{
+    width: 60px;
+    height: 60px
+}
+.infoUsuario{
+    font-family: "Nunito Sans", sans-serif;
+}
+.containerUserInfo {
+    position: absolute;
+    bottom: 5px;
+}
+.containerUserInfo hr{
+    width: 15vw;
+}
+#logout{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.breadCrumbText {
+    text-decoration: none;
+    font-family: "DM Sans", sans-serif;
+    color: #2B3674;
+    font-size: 32px;
+    font-weight: bold;
+}
+.dashInfoComponent{
+    width: 22vw;
+    height: 22vh;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: "Nunito Sans", sans-serif;
+}
+.containerInfoGrande {
+    margin-top: 4rem;
+    width: 75vw;
+    height: 55vh;
+    background-color: white;
+    border-radius: 10px;
+}
+.containerDashBoard {
+    margin-left: 3vw;
+    margin-right: 6vw;
+}
+.dashInfoComponent h2 {
+    color: black;
+    font-size: 37px;
+    font-weight: bold !important;
+}
+.dashInfoComponent h3 {
+    color: var(--cinzaDash);
+    font-size: 22px;
+    font-weight: 500;
+}
+.dashInfoComponent span{
+    color: var(--verdeAumento)
+}
+.breadcrumb {
+    --breadcrumb-font-size: 30px;
+}

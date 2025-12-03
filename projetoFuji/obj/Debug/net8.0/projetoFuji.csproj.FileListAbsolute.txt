@@ -20,7 +20,6 @@ C:\Users\gustavo\Documents\ProjetoFujiyama\projetoFuji\obj\Debug\net8.0\rjimswa.
 C:\Users\gustavo\Documents\ProjetoFujiyama\projetoFuji\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
 C:\Users\gustavo\Documents\ProjetoFujiyama\projetoFuji\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
 C:\Users\gustavo\Documents\ProjetoFujiyama\projetoFuji\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
-C:\Users\gustavo\Documents\ProjetoFujiyama\projetoFuji\obj\Debug\net8.0\scopedcss\Views\Shared\_LayoutDash.cshtml.rz.scp.css
 C:\Users\gustavo\Documents\ProjetoFujiyama\projetoFuji\obj\Debug\net8.0\scopedcss\bundle\projetoFuji.styles.css
 C:\Users\gustavo\Documents\ProjetoFujiyama\projetoFuji\obj\Debug\net8.0\scopedcss\projectbundle\projetoFuji.bundle.scp.css
 C:\Users\gustavo\Documents\ProjetoFujiyama\projetoFuji\obj\Debug\net8.0\staticwebassets.build.json

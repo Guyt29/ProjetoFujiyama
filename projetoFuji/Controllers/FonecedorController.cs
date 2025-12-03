@@ -22,12 +22,12 @@ namespace projetoFuji.Controllers
         [HttpPost]
         public IActionResult Cadastrar(Fornecedor fornecedor)
         {
-            string? connectionString = _configuration.GetConnectionString("DefaultConnection");
-            using var connection = new MySqlConnection(connectionString);
-            connection.Open();
+            string? connectionString = _configuration.GetConnectionString("DefaultConnection"); //pega a string de conexão
+            using var connection = new MySqlConnection(connectionString); //
+            connection.Open(); 
 
             string sql = "INSERT INTO tbFornecedor (CNPJ,nome, endereco, telefone, email) VALUES (@CNPJ, @nome, @endereco, @telefone, @email)";
-            MySqlCommand command = new MySqlCommand(sql, connection);
+            MySqlCommand command = new MySqlCommand(sql, connection); //adiciona os parametros
             command.Parameters.AddWithValue("@CNPJ", fornecedor.CNPJ);
             command.Parameters.AddWithValue("@nome", fornecedor.Nome);
             command.Parameters.AddWithValue("@endereco", fornecedor.Endereco);
@@ -36,9 +36,9 @@ namespace projetoFuji.Controllers
 
 
 
-            command.ExecuteNonQuery();
+            command.ExecuteNonQuery(); //executa
 
-            return RedirectToAction("Listar", "Fornecedor");
+            return RedirectToAction("Listar", "Fornecedor"); //volta pra lista
 
         }
         public IActionResult Listar()
