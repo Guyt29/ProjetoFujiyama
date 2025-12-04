@@ -1,0 +1,17 @@
+﻿@{
+    Layout = "_LayoutCliente";
+    string? loginMensagem = TempData["LoginStatus"] as string; // pega o valor da tempdata
+    string? cpf = TempData.Peek("Cpf") as string;
+}
+@if (!string.IsNullOrEmpty(loginMensagem))
+{
+    // alert mostrar o status do login
+    <script type="text/javascript">
+        window.onload = function(){
+           alert("@loginMensagem"); 
+        };
+    </script>
+
+}
+
+

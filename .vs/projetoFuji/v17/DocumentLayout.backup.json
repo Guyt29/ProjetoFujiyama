@@ -3,64 +3,80 @@
   "WorkspaceRootPath": "C:\\Users\\gustavo\\Desktop\\segundo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|c:\\users\\gustavo\\desktop\\segundo\\projetofuji\\controllers\\folhadepagamentocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|solutionrelative:projetofuji\\controllers\\folhadepagamentocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|c:\\users\\gustavo\\desktop\\segundo\\projetofuji\\banco\\banco.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|solutionrelative:projetofuji\\banco\\banco.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|c:\\users\\gustavo\\desktop\\segundo\\projetofuji\\models\\folhadepagamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|solutionrelative:projetofuji\\models\\folhadepagamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|c:\\users\\gustavo\\desktop\\segundo\\projetofuji\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|solutionrelative:projetofuji\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|c:\\users\\gustavo\\desktop\\segundo\\projetofuji\\models\\funcionario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|solutionrelative:projetofuji\\models\\funcionario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|c:\\users\\gustavo\\desktop\\segundo\\projetofuji\\views\\shared\\_layoutcliente.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|solutionrelative:projetofuji\\views\\shared\\_layoutcliente.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|c:\\users\\gustavo\\desktop\\segundo\\projetofuji\\models\\pessoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|solutionrelative:projetofuji\\models\\pessoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|c:\\users\\gustavo\\desktop\\segundo\\projetofuji\\views\\cliente\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|solutionrelative:projetofuji\\views\\cliente\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|c:\\users\\gustavo\\desktop\\segundo\\projetofuji\\models\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|solutionrelative:projetofuji\\models\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|c:\\users\\gustavo\\desktop\\segundo\\projetofuji\\models\\produtocategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|solutionrelative:projetofuji\\models\\produtocategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|c:\\users\\gustavo\\desktop\\segundo\\projetofuji\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|solutionrelative:projetofuji\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|c:\\users\\gustavo\\desktop\\segundo\\projetofuji\\models\\fornecedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|solutionrelative:projetofuji\\models\\fornecedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|c:\\users\\gustavo\\desktop\\segundo\\projetofuji\\views\\cliente\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|solutionrelative:projetofuji\\views\\cliente\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|c:\\users\\gustavo\\desktop\\segundo\\projetofuji\\controllers\\funcionariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|solutionrelative:projetofuji\\controllers\\funcionariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|c:\\users\\gustavo\\desktop\\segundo\\projetofuji\\controllers\\produtocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|solutionrelative:projetofuji\\controllers\\produtocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|c:\\users\\gustavo\\desktop\\segundo\\projetofuji\\views\\funcionario\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|solutionrelative:projetofuji\\views\\funcionario\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|c:\\users\\gustavo\\desktop\\segundo\\projetofuji\\views\\categoria\\cadastrar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|solutionrelative:projetofuji\\views\\categoria\\cadastrar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|c:\\users\\gustavo\\desktop\\segundo\\projetofuji\\views\\folhadepagamento\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|solutionrelative:projetofuji\\views\\folhadepagamento\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|c:\\users\\gustavo\\desktop\\segundo\\projetofuji\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|solutionrelative:projetofuji\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|c:\\users\\gustavo\\desktop\\segundo\\projetofuji\\views\\folhadepagamento\\listar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|solutionrelative:projetofuji\\views\\folhadepagamento\\listar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|c:\\users\\gustavo\\desktop\\segundo\\projetofuji\\views\\funcionario\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|solutionrelative:projetofuji\\views\\funcionario\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|c:\\users\\gustavo\\desktop\\segundo\\projetofuji\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|solutionrelative:projetofuji\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|c:\\users\\gustavo\\desktop\\segundo\\projetofuji\\views\\produto\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|solutionrelative:projetofuji\\views\\produto\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|c:\\users\\gustavo\\desktop\\segundo\\projetofuji\\views\\folhadepagamento\\cadastrar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|solutionrelative:projetofuji\\views\\folhadepagamento\\cadastrar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|c:\\users\\gustavo\\desktop\\segundo\\projetofuji\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|solutionrelative:projetofuji\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|c:\\users\\gustavo\\desktop\\segundo\\projetofuji\\views\\cliente\\cadastrar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|solutionrelative:projetofuji\\views\\cliente\\cadastrar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|c:\\users\\gustavo\\desktop\\segundo\\projetofuji\\views\\funcionario\\listar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|solutionrelative:projetofuji\\views\\funcionario\\listar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|c:\\users\\gustavo\\desktop\\segundo\\projetofuji\\views\\cliente\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|solutionrelative:projetofuji\\views\\cliente\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|c:\\users\\gustavo\\desktop\\segundo\\projetofuji\\views\\categoria\\listar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|solutionrelative:projetofuji\\views\\categoria\\listar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|c:\\users\\gustavo\\desktop\\segundo\\projetofuji\\views\\categoria\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|solutionrelative:projetofuji\\views\\categoria\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|c:\\users\\gustavo\\desktop\\segundo\\projetofuji\\views\\categoria\\cadastrar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|solutionrelative:projetofuji\\views\\categoria\\cadastrar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|c:\\users\\gustavo\\desktop\\segundo\\projetofuji\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|solutionrelative:projetofuji\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|c:\\users\\gustavo\\desktop\\segundo\\projetofuji\\views\\shared\\_produto.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -71,108 +87,44 @@
       "RelativeMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|solutionrelative:projetofuji\\views\\shared\\_layoutdash.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|c:\\users\\gustavo\\desktop\\segundo\\projetofuji\\views\\folhadepagamento\\cadastrar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|solutionrelative:projetofuji\\views\\folhadepagamento\\cadastrar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|c:\\users\\gustavo\\desktop\\segundo\\projetofuji\\views\\funcionario\\cadastrar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|solutionrelative:projetofuji\\views\\funcionario\\cadastrar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|c:\\users\\gustavo\\desktop\\segundo\\projetofuji\\views\\categoria\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|solutionrelative:projetofuji\\views\\categoria\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|c:\\users\\gustavo\\desktop\\segundo\\projetofuji\\views\\folhadepagamento\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|solutionrelative:projetofuji\\views\\folhadepagamento\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|c:\\users\\gustavo\\desktop\\segundo\\projetofuji\\controllers\\folhadepagamentocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|solutionrelative:projetofuji\\controllers\\folhadepagamentocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|c:\\users\\gustavo\\desktop\\segundo\\projetofuji\\controllers\\fonecedorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|solutionrelative:projetofuji\\controllers\\fonecedorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|c:\\users\\gustavo\\desktop\\segundo\\projetofuji\\controllers\\categoriacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|solutionrelative:projetofuji\\controllers\\categoriacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|c:\\users\\gustavo\\desktop\\segundo\\projetofuji\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|solutionrelative:projetofuji\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|c:\\users\\gustavo\\desktop\\segundo\\projetofuji\\wwwroot\\css\\_layoutdash.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|solutionrelative:projetofuji\\wwwroot\\css\\_layoutdash.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|c:\\users\\gustavo\\desktop\\segundo\\projetofuji\\controllers\\produtocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|solutionrelative:projetofuji\\controllers\\produtocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|c:\\users\\gustavo\\desktop\\segundo\\projetofuji\\views\\funcionario\\cadastrar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|solutionrelative:projetofuji\\views\\funcionario\\cadastrar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|c:\\users\\gustavo\\desktop\\segundo\\projetofuji\\views\\produto\\cadastrar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|solutionrelative:projetofuji\\views\\produto\\cadastrar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|c:\\users\\gustavo\\desktop\\segundo\\projetofuji\\banco\\banco.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
-      "RelativeMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|solutionrelative:projetofuji\\banco\\banco.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|c:\\users\\gustavo\\desktop\\segundo\\projetofuji\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|solutionrelative:projetofuji\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|c:\\users\\gustavo\\desktop\\segundo\\projetofuji\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|solutionrelative:projetofuji\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|c:\\users\\gustavo\\desktop\\segundo\\projetofuji\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|solutionrelative:projetofuji\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|c:\\users\\gustavo\\desktop\\segundo\\projetofuji\\views\\produto\\listar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|solutionrelative:projetofuji\\views\\produto\\listar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|c:\\users\\gustavo\\desktop\\segundo\\projetofuji\\views\\produto\\listarcategoriaporproduto.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|solutionrelative:projetofuji\\views\\produto\\listarcategoriaporproduto.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|c:\\users\\gustavo\\desktop\\segundo\\projetofuji\\models\\clientepessoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|solutionrelative:projetofuji\\models\\clientepessoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|c:\\users\\gustavo\\desktop\\segundo\\projetofuji\\models\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|solutionrelative:projetofuji\\models\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|c:\\users\\gustavo\\desktop\\segundo\\projetofuji\\views\\produto\\cadastrarcategoriaproduto.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|solutionrelative:projetofuji\\views\\produto\\cadastrarcategoriaproduto.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|c:\\users\\gustavo\\desktop\\segundo\\projetofuji\\controllers\\categoriacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|solutionrelative:projetofuji\\controllers\\categoriacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|c:\\users\\gustavo\\desktop\\segundo\\projetofuji\\views\\categoria\\listar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|solutionrelative:projetofuji\\views\\categoria\\listar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|c:\\users\\gustavo\\desktop\\segundo\\projetofuji\\views\\funcionario\\listar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|solutionrelative:projetofuji\\views\\funcionario\\listar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|c:\\users\\gustavo\\desktop\\segundo\\projetofuji\\models\\cadastrofuncionarioviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|solutionrelative:projetofuji\\models\\cadastrofuncionarioviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|c:\\users\\gustavo\\desktop\\segundo\\projetofuji\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|solutionrelative:projetofuji\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|c:\\users\\gustavo\\desktop\\segundo\\projetofuji\\views\\fornecedor\\listar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|solutionrelative:projetofuji\\views\\fornecedor\\listar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|c:\\users\\gustavo\\desktop\\segundo\\projetofuji\\views\\fornecedor\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|solutionrelative:projetofuji\\views\\fornecedor\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|c:\\users\\gustavo\\desktop\\segundo\\projetofuji\\views\\fornecedor\\cadastrar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|solutionrelative:projetofuji\\views\\fornecedor\\cadastrar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|c:\\users\\gustavo\\desktop\\segundo\\projetofuji\\views\\view.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|solutionrelative:projetofuji\\views\\view.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|c:\\users\\gustavo\\desktop\\segundo\\projetofuji\\views\\admin\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|solutionrelative:projetofuji\\views\\admin\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|c:\\users\\gustavo\\desktop\\segundo\\projetofuji\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|solutionrelative:projetofuji\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|c:\\users\\gustavo\\desktop\\segundo\\projetofuji\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|solutionrelative:projetofuji\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|c:\\users\\gustavo\\desktop\\segundo\\projetofuji\\models\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|solutionrelative:projetofuji\\models\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|c:\\users\\gustavo\\desktop\\segundo\\projetofuji\\projetofuji.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -190,11 +142,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 12,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 11,
               "Title": "site.css",
               "DocumentMoniker": "C:\\Users\\gustavo\\Desktop\\segundo\\projetoFuji\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "projetoFuji\\wwwroot\\css\\site.css",
@@ -208,15 +160,29 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "_LayoutDash.css",
-              "DocumentMoniker": "C:\\Users\\gustavo\\Desktop\\segundo\\projetoFuji\\wwwroot\\css\\_LayoutDash.css",
-              "RelativeDocumentMoniker": "projetoFuji\\wwwroot\\css\\_LayoutDash.css",
-              "ToolTip": "C:\\Users\\gustavo\\Desktop\\segundo\\projetoFuji\\wwwroot\\css\\_LayoutDash.css",
-              "RelativeToolTip": "projetoFuji\\wwwroot\\css\\_LayoutDash.css",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAADAAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-11-29T17:25:16.284Z",
+              "DocumentIndex": 1,
+              "Title": "ClienteController.cs",
+              "DocumentMoniker": "C:\\Users\\gustavo\\Desktop\\segundo\\projetoFuji\\Controllers\\ClienteController.cs",
+              "RelativeDocumentMoniker": "projetoFuji\\Controllers\\ClienteController.cs",
+              "ToolTip": "C:\\Users\\gustavo\\Desktop\\segundo\\projetoFuji\\Controllers\\ClienteController.cs",
+              "RelativeToolTip": "projetoFuji\\Controllers\\ClienteController.cs",
+              "ViewState": "AgIAAIUAAAAAAAAAAAA2wIsAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T14:19:57.184Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FuncionarioController.cs",
+              "DocumentMoniker": "C:\\Users\\gustavo\\Desktop\\segundo\\projetoFuji\\Controllers\\FuncionarioController.cs",
+              "RelativeDocumentMoniker": "projetoFuji\\Controllers\\FuncionarioController.cs",
+              "ToolTip": "C:\\Users\\gustavo\\Desktop\\segundo\\projetoFuji\\Controllers\\FuncionarioController.cs",
+              "RelativeToolTip": "projetoFuji\\Controllers\\FuncionarioController.cs",
+              "ViewState": "AgIAAH0AAAAAAAAAAAAiwLcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T14:30:03.722Z",
               "IsPinned": true,
               "EditorCaption": ""
             },
@@ -230,137 +196,149 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\gustavo\\Desktop\\segundo\\projetoFuji\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "projetoFuji\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\gustavo\\Desktop\\segundo\\projetoFuji\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "projetoFuji\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T00:40:23.983Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "FolhaDePagamento.cs",
-              "DocumentMoniker": "C:\\Users\\gustavo\\Desktop\\segundo\\projetoFuji\\Models\\FolhaDePagamento.cs",
-              "RelativeDocumentMoniker": "projetoFuji\\Models\\FolhaDePagamento.cs",
-              "ToolTip": "C:\\Users\\gustavo\\Desktop\\segundo\\projetoFuji\\Models\\FolhaDePagamento.cs",
-              "RelativeToolTip": "projetoFuji\\Models\\FolhaDePagamento.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA7AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T01:09:47.997Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Fornecedor.cs",
-              "DocumentMoniker": "C:\\Users\\gustavo\\Desktop\\segundo\\projetoFuji\\Models\\Fornecedor.cs",
-              "RelativeDocumentMoniker": "projetoFuji\\Models\\Fornecedor.cs",
-              "ToolTip": "C:\\Users\\gustavo\\Desktop\\segundo\\projetoFuji\\Models\\Fornecedor.cs",
-              "RelativeToolTip": "projetoFuji\\Models\\Fornecedor.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-29T17:20:14.236Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ProdutoCategoria.cs",
-              "DocumentMoniker": "C:\\Users\\gustavo\\Desktop\\segundo\\projetoFuji\\Models\\ProdutoCategoria.cs",
-              "RelativeDocumentMoniker": "projetoFuji\\Models\\ProdutoCategoria.cs",
-              "ToolTip": "C:\\Users\\gustavo\\Desktop\\segundo\\projetoFuji\\Models\\ProdutoCategoria.cs",
-              "RelativeToolTip": "projetoFuji\\Models\\ProdutoCategoria.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-03T23:45:58.527Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Produto.cs",
-              "DocumentMoniker": "C:\\Users\\gustavo\\Desktop\\segundo\\projetoFuji\\Models\\Produto.cs",
-              "RelativeDocumentMoniker": "projetoFuji\\Models\\Produto.cs",
-              "ToolTip": "C:\\Users\\gustavo\\Desktop\\segundo\\projetoFuji\\Models\\Produto.cs",
-              "RelativeToolTip": "projetoFuji\\Models\\Produto.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAA1wBUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-03T23:02:39.987Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Pessoa.cs",
-              "DocumentMoniker": "C:\\Users\\gustavo\\Desktop\\segundo\\projetoFuji\\Models\\Pessoa.cs",
-              "RelativeDocumentMoniker": "projetoFuji\\Models\\Pessoa.cs",
-              "ToolTip": "C:\\Users\\gustavo\\Desktop\\segundo\\projetoFuji\\Models\\Pessoa.cs",
-              "RelativeToolTip": "projetoFuji\\Models\\Pessoa.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAQwCcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-03T17:15:54.946Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Funcionario.cs",
-              "DocumentMoniker": "C:\\Users\\gustavo\\Desktop\\segundo\\projetoFuji\\Models\\Funcionario.cs",
-              "RelativeDocumentMoniker": "projetoFuji\\Models\\Funcionario.cs",
-              "ToolTip": "C:\\Users\\gustavo\\Desktop\\segundo\\projetoFuji\\Models\\Funcionario.cs",
-              "RelativeToolTip": "projetoFuji\\Models\\Funcionario.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAADwvyIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-03T17:23:21.813Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "FolhaDePagamentoController.cs",
-              "DocumentMoniker": "C:\\Users\\gustavo\\Desktop\\segundo\\projetoFuji\\Controllers\\FolhaDePagamentoController.cs",
-              "RelativeDocumentMoniker": "projetoFuji\\Controllers\\FolhaDePagamentoController.cs",
-              "ToolTip": "C:\\Users\\gustavo\\Desktop\\segundo\\projetoFuji\\Controllers\\FolhaDePagamentoController.cs*",
-              "RelativeToolTip": "projetoFuji\\Controllers\\FolhaDePagamentoController.cs*",
-              "ViewState": "AgIAAEsAAAAAAAAAAADgv14AAABWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T01:14:04.155Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "FuncionarioController.cs",
-              "DocumentMoniker": "C:\\Users\\gustavo\\Desktop\\segundo\\projetoFuji\\Controllers\\FuncionarioController.cs",
-              "RelativeDocumentMoniker": "projetoFuji\\Controllers\\FuncionarioController.cs",
-              "ToolTip": "C:\\Users\\gustavo\\Desktop\\segundo\\projetoFuji\\Controllers\\FuncionarioController.cs",
-              "RelativeToolTip": "projetoFuji\\Controllers\\FuncionarioController.cs",
-              "ViewState": "AgIAAD4AAAAAAAAAAAAqwFMAAABpAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-03T17:37:41.713Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ProdutoController.cs",
-              "DocumentMoniker": "C:\\Users\\gustavo\\Desktop\\segundo\\projetoFuji\\Controllers\\ProdutoController.cs",
-              "RelativeDocumentMoniker": "projetoFuji\\Controllers\\ProdutoController.cs",
-              "ToolTip": "C:\\Users\\gustavo\\Desktop\\segundo\\projetoFuji\\Controllers\\ProdutoController.cs",
-              "RelativeToolTip": "projetoFuji\\Controllers\\ProdutoController.cs",
-              "ViewState": "AgIAAOAAAAAAAAAAAAAqwPQAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-03T23:01:58.672Z",
+              "Title": "Listar.cshtml",
+              "DocumentMoniker": "C:\\Users\\gustavo\\Desktop\\segundo\\projetoFuji\\Views\\FolhaDePagamento\\Listar.cshtml",
+              "RelativeDocumentMoniker": "projetoFuji\\Views\\FolhaDePagamento\\Listar.cshtml",
+              "ToolTip": "C:\\Users\\gustavo\\Desktop\\segundo\\projetoFuji\\Views\\FolhaDePagamento\\Listar.cshtml",
+              "RelativeToolTip": "projetoFuji\\Views\\FolhaDePagamento\\Listar.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-04T14:51:02.336Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
+              "Title": "Cadastrar.cshtml",
+              "DocumentMoniker": "C:\\Users\\gustavo\\Desktop\\segundo\\projetoFuji\\Views\\FolhaDePagamento\\Cadastrar.cshtml",
+              "RelativeDocumentMoniker": "projetoFuji\\Views\\FolhaDePagamento\\Cadastrar.cshtml",
+              "ToolTip": "C:\\Users\\gustavo\\Desktop\\segundo\\projetoFuji\\Views\\FolhaDePagamento\\Cadastrar.cshtml",
+              "RelativeToolTip": "projetoFuji\\Views\\FolhaDePagamento\\Cadastrar.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-04T14:50:50.123Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\gustavo\\Desktop\\segundo\\projetoFuji\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "projetoFuji\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\gustavo\\Desktop\\segundo\\projetoFuji\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "projetoFuji\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAADUAAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-04T14:46:45.038Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Cadastrar.cshtml",
+              "DocumentMoniker": "C:\\Users\\gustavo\\Desktop\\segundo\\projetoFuji\\Views\\Cliente\\Cadastrar.cshtml",
+              "RelativeDocumentMoniker": "projetoFuji\\Views\\Cliente\\Cadastrar.cshtml",
+              "ToolTip": "C:\\Users\\gustavo\\Desktop\\segundo\\projetoFuji\\Views\\Cliente\\Cadastrar.cshtml",
+              "RelativeToolTip": "projetoFuji\\Views\\Cliente\\Cadastrar.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAADgAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-04T14:57:43.393Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_LayoutCliente.cshtml",
+              "DocumentMoniker": "C:\\Users\\gustavo\\Desktop\\segundo\\projetoFuji\\Views\\Shared\\_LayoutCliente.cshtml",
+              "RelativeDocumentMoniker": "projetoFuji\\Views\\Shared\\_LayoutCliente.cshtml",
+              "ToolTip": "C:\\Users\\gustavo\\Desktop\\segundo\\projetoFuji\\Views\\Shared\\_LayoutCliente.cshtml",
+              "RelativeToolTip": "projetoFuji\\Views\\Shared\\_LayoutCliente.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-04T14:44:42.566Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Cliente.cs",
+              "DocumentMoniker": "C:\\Users\\gustavo\\Desktop\\segundo\\projetoFuji\\Models\\Cliente.cs",
+              "RelativeDocumentMoniker": "projetoFuji\\Models\\Cliente.cs",
+              "ToolTip": "C:\\Users\\gustavo\\Desktop\\segundo\\projetoFuji\\Models\\Cliente.cs",
+              "RelativeToolTip": "projetoFuji\\Models\\Cliente.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T14:42:34.831Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\gustavo\\Desktop\\segundo\\projetoFuji\\Views\\Cliente\\Index.cshtml",
+              "RelativeDocumentMoniker": "projetoFuji\\Views\\Cliente\\Index.cshtml",
+              "ToolTip": "C:\\Users\\gustavo\\Desktop\\segundo\\projetoFuji\\Views\\Cliente\\Index.cshtml",
+              "RelativeToolTip": "projetoFuji\\Views\\Cliente\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-04T14:50:40.497Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "banco.sql ",
+              "DocumentMoniker": "C:\\Users\\gustavo\\Desktop\\segundo\\projetoFuji\\Banco\\banco.sql",
+              "RelativeDocumentMoniker": "projetoFuji\\Banco\\banco.sql",
+              "ToolTip": "C:\\Users\\gustavo\\Desktop\\segundo\\projetoFuji\\Banco\\banco.sql",
+              "RelativeToolTip": "projetoFuji\\Banco\\banco.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-12-04T14:35:35.221Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Editar.cshtml",
+              "DocumentMoniker": "C:\\Users\\gustavo\\Desktop\\segundo\\projetoFuji\\Views\\Cliente\\Editar.cshtml",
+              "RelativeDocumentMoniker": "projetoFuji\\Views\\Cliente\\Editar.cshtml",
+              "ToolTip": "C:\\Users\\gustavo\\Desktop\\segundo\\projetoFuji\\Views\\Cliente\\Editar.cshtml",
+              "RelativeToolTip": "projetoFuji\\Views\\Cliente\\Editar.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-04T17:02:03.331Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Editar.cshtml",
+              "DocumentMoniker": "C:\\Users\\gustavo\\Desktop\\segundo\\projetoFuji\\Views\\Funcionario\\Editar.cshtml",
+              "RelativeDocumentMoniker": "projetoFuji\\Views\\Funcionario\\Editar.cshtml",
+              "ToolTip": "C:\\Users\\gustavo\\Desktop\\segundo\\projetoFuji\\Views\\Funcionario\\Editar.cshtml",
+              "RelativeToolTip": "projetoFuji\\Views\\Funcionario\\Editar.cshtml",
+              "ViewState": "AgIAABwAAAAAAAAAAAAowDAAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-04T17:02:14.084Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\gustavo\\Desktop\\segundo\\projetoFuji\\Views\\Cliente\\Login.cshtml",
+              "RelativeDocumentMoniker": "projetoFuji\\Views\\Cliente\\Login.cshtml",
+              "ToolTip": "C:\\Users\\gustavo\\Desktop\\segundo\\projetoFuji\\Views\\Cliente\\Login.cshtml",
+              "RelativeToolTip": "projetoFuji\\Views\\Cliente\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-04T15:31:08.588Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
               "Title": "Cadastrar.cshtml",
               "DocumentMoniker": "C:\\Users\\gustavo\\Desktop\\segundo\\projetoFuji\\Views\\Categoria\\Cadastrar.cshtml",
               "RelativeDocumentMoniker": "projetoFuji\\Views\\Categoria\\Cadastrar.cshtml",
@@ -368,387 +346,220 @@
               "RelativeToolTip": "projetoFuji\\Views\\Categoria\\Cadastrar.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-03T23:23:09.784Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Editar.cshtml",
-              "DocumentMoniker": "C:\\Users\\gustavo\\Desktop\\segundo\\projetoFuji\\Views\\FolhaDePagamento\\Editar.cshtml",
-              "RelativeDocumentMoniker": "projetoFuji\\Views\\FolhaDePagamento\\Editar.cshtml",
-              "ToolTip": "C:\\Users\\gustavo\\Desktop\\segundo\\projetoFuji\\Views\\FolhaDePagamento\\Editar.cshtml",
-              "RelativeToolTip": "projetoFuji\\Views\\FolhaDePagamento\\Editar.cshtml",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABwAAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-04T02:20:08.046Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Listar.cshtml",
-              "DocumentMoniker": "C:\\Users\\gustavo\\Desktop\\segundo\\projetoFuji\\Views\\FolhaDePagamento\\Listar.cshtml",
-              "RelativeDocumentMoniker": "projetoFuji\\Views\\FolhaDePagamento\\Listar.cshtml",
-              "ToolTip": "C:\\Users\\gustavo\\Desktop\\segundo\\projetoFuji\\Views\\FolhaDePagamento\\Listar.cshtml",
-              "RelativeToolTip": "projetoFuji\\Views\\FolhaDePagamento\\Listar.cshtml",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAADAAAABEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-04T01:32:59.535Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "_Produto.cshtml",
-              "DocumentMoniker": "C:\\Users\\gustavo\\Desktop\\segundo\\projetoFuji\\Views\\Shared\\_Produto.cshtml",
-              "RelativeDocumentMoniker": "projetoFuji\\Views\\Shared\\_Produto.cshtml",
-              "ToolTip": "C:\\Users\\gustavo\\Desktop\\segundo\\projetoFuji\\Views\\Shared\\_Produto.cshtml",
-              "RelativeToolTip": "projetoFuji\\Views\\Shared\\_Produto.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-30T15:21:12.555Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "_LayoutDash.cshtml",
-              "DocumentMoniker": "C:\\Users\\gustavo\\Desktop\\segundo\\projetoFuji\\Views\\Shared\\_LayoutDash.cshtml",
-              "RelativeDocumentMoniker": "projetoFuji\\Views\\Shared\\_LayoutDash.cshtml",
-              "ToolTip": "C:\\Users\\gustavo\\Desktop\\segundo\\projetoFuji\\Views\\Shared\\_LayoutDash.cshtml",
-              "RelativeToolTip": "projetoFuji\\Views\\Shared\\_LayoutDash.cshtml",
-              "ViewState": "AgIAADAAAAAAAAAAAAAowEcAAAB1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-29T17:25:13.714Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Editar.cshtml",
-              "DocumentMoniker": "C:\\Users\\gustavo\\Desktop\\segundo\\projetoFuji\\Views\\Produto\\Editar.cshtml",
-              "RelativeDocumentMoniker": "projetoFuji\\Views\\Produto\\Editar.cshtml",
-              "ToolTip": "C:\\Users\\gustavo\\Desktop\\segundo\\projetoFuji\\Views\\Produto\\Editar.cshtml",
-              "RelativeToolTip": "projetoFuji\\Views\\Produto\\Editar.cshtml",
-              "ViewState": "AgIAABcAAAAAAAAAAAAiwEAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-04T00:13:36.244Z",
+              "WhenOpened": "2025-12-04T15:36:57.525Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
-              "Title": "Editar.cshtml",
-              "DocumentMoniker": "C:\\Users\\gustavo\\Desktop\\segundo\\projetoFuji\\Views\\Funcionario\\Editar.cshtml",
-              "RelativeDocumentMoniker": "projetoFuji\\Views\\Funcionario\\Editar.cshtml",
-              "ToolTip": "C:\\Users\\gustavo\\Desktop\\segundo\\projetoFuji\\Views\\Funcionario\\Editar.cshtml",
-              "RelativeToolTip": "projetoFuji\\Views\\Funcionario\\Editar.cshtml",
-              "ViewState": "AgIAADAAAAAAAAAAAAAAAEgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-03T19:53:32.873Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Cadastrar.cshtml",
-              "DocumentMoniker": "C:\\Users\\gustavo\\Desktop\\segundo\\projetoFuji\\Views\\FolhaDePagamento\\Cadastrar.cshtml",
-              "RelativeDocumentMoniker": "projetoFuji\\Views\\FolhaDePagamento\\Cadastrar.cshtml",
-              "ToolTip": "C:\\Users\\gustavo\\Desktop\\segundo\\projetoFuji\\Views\\FolhaDePagamento\\Cadastrar.cshtml",
-              "RelativeToolTip": "projetoFuji\\Views\\FolhaDePagamento\\Cadastrar.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-04T01:33:42.608Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "Editar.cshtml",
-              "DocumentMoniker": "C:\\Users\\gustavo\\Desktop\\segundo\\projetoFuji\\Views\\Categoria\\Editar.cshtml",
-              "RelativeDocumentMoniker": "projetoFuji\\Views\\Categoria\\Editar.cshtml",
-              "ToolTip": "C:\\Users\\gustavo\\Desktop\\segundo\\projetoFuji\\Views\\Categoria\\Editar.cshtml",
-              "RelativeToolTip": "projetoFuji\\Views\\Categoria\\Editar.cshtml",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-03T23:37:36.585Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "CategoriaController.cs",
-              "DocumentMoniker": "C:\\Users\\gustavo\\Desktop\\segundo\\projetoFuji\\Controllers\\CategoriaController.cs",
-              "RelativeDocumentMoniker": "projetoFuji\\Controllers\\CategoriaController.cs",
-              "ToolTip": "C:\\Users\\gustavo\\Desktop\\segundo\\projetoFuji\\Controllers\\CategoriaController.cs",
-              "RelativeToolTip": "projetoFuji\\Controllers\\CategoriaController.cs",
-              "ViewState": "AgIAAE0AAAAAAAAAAAAiwCUAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-03T23:19:42.843Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "FonecedorController.cs",
-              "DocumentMoniker": "C:\\Users\\gustavo\\Desktop\\segundo\\projetoFuji\\Controllers\\FonecedorController.cs",
-              "RelativeDocumentMoniker": "projetoFuji\\Controllers\\FonecedorController.cs",
-              "ToolTip": "C:\\Users\\gustavo\\Desktop\\segundo\\projetoFuji\\Controllers\\FonecedorController.cs",
-              "RelativeToolTip": "projetoFuji\\Controllers\\FonecedorController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-30T19:43:21.152Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "Cadastrar.cshtml",
-              "DocumentMoniker": "C:\\Users\\gustavo\\Desktop\\segundo\\projetoFuji\\Views\\Funcionario\\Cadastrar.cshtml",
-              "RelativeDocumentMoniker": "projetoFuji\\Views\\Funcionario\\Cadastrar.cshtml",
-              "ToolTip": "C:\\Users\\gustavo\\Desktop\\segundo\\projetoFuji\\Views\\Funcionario\\Cadastrar.cshtml",
-              "RelativeToolTip": "projetoFuji\\Views\\Funcionario\\Cadastrar.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-03T17:38:52.156Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "Cadastrar.cshtml",
-              "DocumentMoniker": "C:\\Users\\gustavo\\Desktop\\segundo\\projetoFuji\\Views\\Produto\\Cadastrar.cshtml",
-              "RelativeDocumentMoniker": "projetoFuji\\Views\\Produto\\Cadastrar.cshtml",
-              "ToolTip": "C:\\Users\\gustavo\\Desktop\\segundo\\projetoFuji\\Views\\Produto\\Cadastrar.cshtml",
-              "RelativeToolTip": "projetoFuji\\Views\\Produto\\Cadastrar.cshtml",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAcwD0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-03T23:10:59.558Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "banco.sql ",
-              "DocumentMoniker": "C:\\Users\\gustavo\\Desktop\\segundo\\projetoFuji\\Banco\\banco.sql",
-              "RelativeDocumentMoniker": "projetoFuji\\Banco\\banco.sql",
-              "ToolTip": "C:\\Users\\gustavo\\Desktop\\segundo\\projetoFuji\\Banco\\banco.sql",
-              "RelativeToolTip": "projetoFuji\\Banco\\banco.sql",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2025-11-30T20:01:39.837Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "AdminController.cs",
-              "DocumentMoniker": "C:\\Users\\gustavo\\Desktop\\segundo\\projetoFuji\\Controllers\\AdminController.cs",
-              "RelativeDocumentMoniker": "projetoFuji\\Controllers\\AdminController.cs",
-              "ToolTip": "C:\\Users\\gustavo\\Desktop\\segundo\\projetoFuji\\Controllers\\AdminController.cs",
-              "RelativeToolTip": "projetoFuji\\Controllers\\AdminController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-30T20:07:23.591Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "ErrorViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\gustavo\\Desktop\\segundo\\projetoFuji\\Models\\ErrorViewModel.cs",
-              "RelativeDocumentMoniker": "projetoFuji\\Models\\ErrorViewModel.cs",
-              "ToolTip": "C:\\Users\\gustavo\\Desktop\\segundo\\projetoFuji\\Models\\ErrorViewModel.cs",
-              "RelativeToolTip": "projetoFuji\\Models\\ErrorViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-03T18:41:52.64Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "Listar.cshtml",
-              "DocumentMoniker": "C:\\Users\\gustavo\\Desktop\\segundo\\projetoFuji\\Views\\Produto\\Listar.cshtml",
-              "RelativeDocumentMoniker": "projetoFuji\\Views\\Produto\\Listar.cshtml",
-              "ToolTip": "C:\\Users\\gustavo\\Desktop\\segundo\\projetoFuji\\Views\\Produto\\Listar.cshtml",
-              "RelativeToolTip": "projetoFuji\\Views\\Produto\\Listar.cshtml",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAEcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-03T23:10:12.53Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "ListarCategoriaPorProduto.cshtml",
-              "DocumentMoniker": "C:\\Users\\gustavo\\Desktop\\segundo\\projetoFuji\\Views\\Produto\\ListarCategoriaPorProduto.cshtml",
-              "RelativeDocumentMoniker": "projetoFuji\\Views\\Produto\\ListarCategoriaPorProduto.cshtml",
-              "ToolTip": "C:\\Users\\gustavo\\Desktop\\segundo\\projetoFuji\\Views\\Produto\\ListarCategoriaPorProduto.cshtml",
-              "RelativeToolTip": "projetoFuji\\Views\\Produto\\ListarCategoriaPorProduto.cshtml",
-              "ViewState": "AgIAABQAAAAAAAAAAAAcwCwAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-04T00:10:33.93Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "Categoria.cs",
-              "DocumentMoniker": "C:\\Users\\gustavo\\Desktop\\segundo\\projetoFuji\\Models\\Categoria.cs",
-              "RelativeDocumentMoniker": "projetoFuji\\Models\\Categoria.cs",
-              "ToolTip": "C:\\Users\\gustavo\\Desktop\\segundo\\projetoFuji\\Models\\Categoria.cs",
-              "RelativeToolTip": "projetoFuji\\Models\\Categoria.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-03T23:14:44.65Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "CadastrarCategoriaProduto.cshtml",
-              "DocumentMoniker": "C:\\Users\\gustavo\\Desktop\\segundo\\projetoFuji\\Views\\Produto\\CadastrarCategoriaProduto.cshtml",
-              "RelativeDocumentMoniker": "projetoFuji\\Views\\Produto\\CadastrarCategoriaProduto.cshtml",
-              "ToolTip": "C:\\Users\\gustavo\\Desktop\\segundo\\projetoFuji\\Views\\Produto\\CadastrarCategoriaProduto.cshtml",
-              "RelativeToolTip": "projetoFuji\\Views\\Produto\\CadastrarCategoriaProduto.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-04T00:15:28.056Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "Listar.cshtml",
-              "DocumentMoniker": "C:\\Users\\gustavo\\Desktop\\segundo\\projetoFuji\\Views\\Categoria\\Listar.cshtml",
-              "RelativeDocumentMoniker": "projetoFuji\\Views\\Categoria\\Listar.cshtml",
-              "ToolTip": "C:\\Users\\gustavo\\Desktop\\segundo\\projetoFuji\\Views\\Categoria\\Listar.cshtml",
-              "RelativeToolTip": "projetoFuji\\Views\\Categoria\\Listar.cshtml",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-03T23:30:31.489Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
               "Title": "Listar.cshtml",
               "DocumentMoniker": "C:\\Users\\gustavo\\Desktop\\segundo\\projetoFuji\\Views\\Funcionario\\Listar.cshtml",
               "RelativeDocumentMoniker": "projetoFuji\\Views\\Funcionario\\Listar.cshtml",
               "ToolTip": "C:\\Users\\gustavo\\Desktop\\segundo\\projetoFuji\\Views\\Funcionario\\Listar.cshtml",
               "RelativeToolTip": "projetoFuji\\Views\\Funcionario\\Listar.cshtml",
-              "ViewState": "AgIAAEsAAAAAAAAAAAAAAF8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAAF8AAACMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-03T18:59:18.712Z"
+              "WhenOpened": "2025-12-04T15:59:38.292Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "CadastroFuncionarioViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\gustavo\\Desktop\\segundo\\projetoFuji\\Models\\CadastroFuncionarioViewModel.cs",
-              "RelativeDocumentMoniker": "projetoFuji\\Models\\CadastroFuncionarioViewModel.cs",
-              "ToolTip": "C:\\Users\\gustavo\\Desktop\\segundo\\projetoFuji\\Models\\CadastroFuncionarioViewModel.cs",
-              "RelativeToolTip": "projetoFuji\\Models\\CadastroFuncionarioViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-03T17:57:52.774Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\gustavo\\Desktop\\segundo\\projetoFuji\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "projetoFuji\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\gustavo\\Desktop\\segundo\\projetoFuji\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "projetoFuji\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-02T22:49:45.898Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "Listar.cshtml",
-              "DocumentMoniker": "C:\\Users\\gustavo\\Desktop\\segundo\\projetoFuji\\Views\\Fornecedor\\Listar.cshtml",
-              "RelativeDocumentMoniker": "projetoFuji\\Views\\Fornecedor\\Listar.cshtml",
-              "ToolTip": "C:\\Users\\gustavo\\Desktop\\segundo\\projetoFuji\\Views\\Fornecedor\\Listar.cshtml",
-              "RelativeToolTip": "projetoFuji\\Views\\Fornecedor\\Listar.cshtml",
-              "ViewState": "AgIAACQAAAAAAAAAAAAAADoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-03T18:44:48.44Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 16,
               "Title": "Editar.cshtml",
-              "DocumentMoniker": "C:\\Users\\gustavo\\Desktop\\segundo\\projetoFuji\\Views\\Fornecedor\\Editar.cshtml",
-              "RelativeDocumentMoniker": "projetoFuji\\Views\\Fornecedor\\Editar.cshtml",
-              "ToolTip": "C:\\Users\\gustavo\\Desktop\\segundo\\projetoFuji\\Views\\Fornecedor\\Editar.cshtml",
-              "RelativeToolTip": "projetoFuji\\Views\\Fornecedor\\Editar.cshtml",
-              "ViewState": "AgIAABUAAAAAAAAAAAAcwDwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-03T16:31:55.289Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "Cadastrar.cshtml",
-              "DocumentMoniker": "C:\\Users\\gustavo\\Desktop\\segundo\\projetoFuji\\Views\\Fornecedor\\Cadastrar.cshtml",
-              "RelativeDocumentMoniker": "projetoFuji\\Views\\Fornecedor\\Cadastrar.cshtml",
-              "ToolTip": "C:\\Users\\gustavo\\Desktop\\segundo\\projetoFuji\\Views\\Fornecedor\\Cadastrar.cshtml",
-              "RelativeToolTip": "projetoFuji\\Views\\Fornecedor\\Cadastrar.cshtml",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAAC4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-30T19:49:41.045Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 39,
-              "Title": "View.cshtml",
-              "DocumentMoniker": "C:\\Users\\gustavo\\Desktop\\segundo\\projetoFuji\\Views\\View.cshtml",
-              "RelativeDocumentMoniker": "projetoFuji\\Views\\View.cshtml",
-              "ToolTip": "C:\\Users\\gustavo\\Desktop\\segundo\\projetoFuji\\Views\\View.cshtml",
-              "RelativeToolTip": "projetoFuji\\Views\\View.cshtml",
+              "DocumentMoniker": "C:\\Users\\gustavo\\Desktop\\segundo\\projetoFuji\\Views\\Categoria\\Editar.cshtml",
+              "RelativeDocumentMoniker": "projetoFuji\\Views\\Categoria\\Editar.cshtml",
+              "ToolTip": "C:\\Users\\gustavo\\Desktop\\segundo\\projetoFuji\\Views\\Categoria\\Editar.cshtml",
+              "RelativeToolTip": "projetoFuji\\Views\\Categoria\\Editar.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-03T17:39:26.051Z"
+              "WhenOpened": "2025-12-04T15:36:58.239Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
-              "Title": "DashBoard.cshtml",
-              "DocumentMoniker": "C:\\Users\\gustavo\\Desktop\\segundo\\projetoFuji\\Views\\Admin\\DashBoard.cshtml",
-              "RelativeDocumentMoniker": "projetoFuji\\Views\\Admin\\DashBoard.cshtml",
-              "ToolTip": "C:\\Users\\gustavo\\Desktop\\segundo\\projetoFuji\\Views\\Admin\\DashBoard.cshtml",
-              "RelativeToolTip": "projetoFuji\\Views\\Admin\\DashBoard.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAqAAAAAAAAAA==",
+              "DocumentIndex": 15,
+              "Title": "Listar.cshtml",
+              "DocumentMoniker": "C:\\Users\\gustavo\\Desktop\\segundo\\projetoFuji\\Views\\Categoria\\Listar.cshtml",
+              "RelativeDocumentMoniker": "projetoFuji\\Views\\Categoria\\Listar.cshtml",
+              "ToolTip": "C:\\Users\\gustavo\\Desktop\\segundo\\projetoFuji\\Views\\Categoria\\Listar.cshtml",
+              "RelativeToolTip": "projetoFuji\\Views\\Categoria\\Listar.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-30T18:36:13.642Z"
+              "WhenOpened": "2025-12-04T15:36:59.197Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
-              "Title": "_Layout.cshtml.css",
-              "DocumentMoniker": "C:\\Users\\gustavo\\Desktop\\segundo\\projetoFuji\\Views\\Shared\\_Layout.cshtml.css",
-              "RelativeDocumentMoniker": "projetoFuji\\Views\\Shared\\_Layout.cshtml.css",
-              "ToolTip": "C:\\Users\\gustavo\\Desktop\\segundo\\projetoFuji\\Views\\Shared\\_Layout.cshtml.css",
-              "RelativeToolTip": "projetoFuji\\Views\\Shared\\_Layout.cshtml.css",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAuwDEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-12-02T23:03:57.825Z"
+              "DocumentIndex": 19,
+              "Title": "_Produto.cshtml",
+              "DocumentMoniker": "C:\\Users\\gustavo\\Desktop\\segundo\\projetoFuji\\Views\\Shared\\_Produto.cshtml",
+              "RelativeDocumentMoniker": "projetoFuji\\Views\\Shared\\_Produto.cshtml",
+              "ToolTip": "C:\\Users\\gustavo\\Desktop\\segundo\\projetoFuji\\Views\\Shared\\_Produto.cshtml",
+              "RelativeToolTip": "projetoFuji\\Views\\Shared\\_Produto.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-04T15:03:52.249Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\gustavo\\Desktop\\segundo\\projetoFuji\\appsettings.json",
-              "RelativeDocumentMoniker": "projetoFuji\\appsettings.json",
-              "ToolTip": "C:\\Users\\gustavo\\Desktop\\segundo\\projetoFuji\\appsettings.json",
-              "RelativeToolTip": "projetoFuji\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAABaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-11-30T20:01:12.266Z"
+              "DocumentIndex": 18,
+              "Title": "site.js",
+              "DocumentMoniker": "C:\\Users\\gustavo\\Desktop\\segundo\\projetoFuji\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "projetoFuji\\wwwroot\\js\\site.js",
+              "ToolTip": "C:\\Users\\gustavo\\Desktop\\segundo\\projetoFuji\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "projetoFuji\\wwwroot\\js\\site.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-12-04T15:27:18.071Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 20,
+              "Title": "_LayoutDash.cshtml",
+              "DocumentMoniker": "C:\\Users\\gustavo\\Desktop\\segundo\\projetoFuji\\Views\\Shared\\_LayoutDash.cshtml",
+              "RelativeDocumentMoniker": "projetoFuji\\Views\\Shared\\_LayoutDash.cshtml",
+              "ToolTip": "C:\\Users\\gustavo\\Desktop\\segundo\\projetoFuji\\Views\\Shared\\_LayoutDash.cshtml",
+              "RelativeToolTip": "projetoFuji\\Views\\Shared\\_LayoutDash.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-04T14:55:58.667Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Editar.cshtml",
+              "DocumentMoniker": "C:\\Users\\gustavo\\Desktop\\segundo\\projetoFuji\\Views\\FolhaDePagamento\\Editar.cshtml",
+              "RelativeDocumentMoniker": "projetoFuji\\Views\\FolhaDePagamento\\Editar.cshtml",
+              "ToolTip": "C:\\Users\\gustavo\\Desktop\\segundo\\projetoFuji\\Views\\FolhaDePagamento\\Editar.cshtml",
+              "RelativeToolTip": "projetoFuji\\Views\\FolhaDePagamento\\Editar.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-04T14:51:04.257Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Cadastrar.cshtml",
+              "DocumentMoniker": "C:\\Users\\gustavo\\Desktop\\segundo\\projetoFuji\\Views\\Funcionario\\Cadastrar.cshtml",
+              "RelativeDocumentMoniker": "projetoFuji\\Views\\Funcionario\\Cadastrar.cshtml",
+              "ToolTip": "C:\\Users\\gustavo\\Desktop\\segundo\\projetoFuji\\Views\\Funcionario\\Cadastrar.cshtml",
+              "RelativeToolTip": "projetoFuji\\Views\\Funcionario\\Cadastrar.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAADcAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-04T15:00:41.259Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "FolhaDePagamentoController.cs",
+              "DocumentMoniker": "C:\\Users\\gustavo\\Desktop\\segundo\\projetoFuji\\Controllers\\FolhaDePagamentoController.cs",
+              "RelativeDocumentMoniker": "projetoFuji\\Controllers\\FolhaDePagamentoController.cs",
+              "ToolTip": "C:\\Users\\gustavo\\Desktop\\segundo\\projetoFuji\\Controllers\\FolhaDePagamentoController.cs",
+              "RelativeToolTip": "projetoFuji\\Controllers\\FolhaDePagamentoController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T14:43:30.107Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "FonecedorController.cs",
+              "DocumentMoniker": "C:\\Users\\gustavo\\Desktop\\segundo\\projetoFuji\\Controllers\\FonecedorController.cs",
+              "RelativeDocumentMoniker": "projetoFuji\\Controllers\\FonecedorController.cs",
+              "ToolTip": "C:\\Users\\gustavo\\Desktop\\segundo\\projetoFuji\\Controllers\\FonecedorController.cs",
+              "RelativeToolTip": "projetoFuji\\Controllers\\FonecedorController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T14:43:28.964Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\gustavo\\Desktop\\segundo\\projetoFuji\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "projetoFuji\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\gustavo\\Desktop\\segundo\\projetoFuji\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "projetoFuji\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T14:43:18.141Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Categoria.cs",
+              "DocumentMoniker": "C:\\Users\\gustavo\\Desktop\\segundo\\projetoFuji\\Models\\Categoria.cs",
+              "RelativeDocumentMoniker": "projetoFuji\\Models\\Categoria.cs",
+              "ToolTip": "C:\\Users\\gustavo\\Desktop\\segundo\\projetoFuji\\Models\\Categoria.cs",
+              "RelativeToolTip": "projetoFuji\\Models\\Categoria.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T14:43:04.32Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ProdutoController.cs",
+              "DocumentMoniker": "C:\\Users\\gustavo\\Desktop\\segundo\\projetoFuji\\Controllers\\ProdutoController.cs",
+              "RelativeDocumentMoniker": "projetoFuji\\Controllers\\ProdutoController.cs",
+              "ToolTip": "C:\\Users\\gustavo\\Desktop\\segundo\\projetoFuji\\Controllers\\ProdutoController.cs",
+              "RelativeToolTip": "projetoFuji\\Controllers\\ProdutoController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T14:40:48.742Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ClientePessoa.cs",
+              "DocumentMoniker": "C:\\Users\\gustavo\\Desktop\\segundo\\projetoFuji\\Models\\ClientePessoa.cs",
+              "RelativeDocumentMoniker": "projetoFuji\\Models\\ClientePessoa.cs",
+              "ToolTip": "C:\\Users\\gustavo\\Desktop\\segundo\\projetoFuji\\Models\\ClientePessoa.cs",
+              "RelativeToolTip": "projetoFuji\\Models\\ClientePessoa.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T14:38:23.623Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "CategoriaController.cs",
+              "DocumentMoniker": "C:\\Users\\gustavo\\Desktop\\segundo\\projetoFuji\\Controllers\\CategoriaController.cs",
+              "RelativeDocumentMoniker": "projetoFuji\\Controllers\\CategoriaController.cs",
+              "ToolTip": "C:\\Users\\gustavo\\Desktop\\segundo\\projetoFuji\\Controllers\\CategoriaController.cs",
+              "RelativeToolTip": "projetoFuji\\Controllers\\CategoriaController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T14:27:53.935Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Produto.cs",
+              "DocumentMoniker": "C:\\Users\\gustavo\\Desktop\\segundo\\projetoFuji\\Models\\Produto.cs",
+              "RelativeDocumentMoniker": "projetoFuji\\Models\\Produto.cs",
+              "ToolTip": "C:\\Users\\gustavo\\Desktop\\segundo\\projetoFuji\\Models\\Produto.cs",
+              "RelativeToolTip": "projetoFuji\\Models\\Produto.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T23:02:39.987Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
               "Title": "projetoFuji.csproj",
               "DocumentMoniker": "C:\\Users\\gustavo\\Desktop\\segundo\\projetoFuji\\projetoFuji.csproj",
               "RelativeDocumentMoniker": "projetoFuji\\projetoFuji.csproj",

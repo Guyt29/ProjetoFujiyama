@@ -1,0 +1,88 @@
+﻿@{
+    string? cpf = TempData.Peek("Cpf") as string;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - projetoFuji</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/projetoFuji.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/_LayoutDash.css" asp-append-version="true">
+</head>
+<body>
+    <nav class="sideBar">
+        <div class="marca">
+            <a asp-area="" asp-controller="Admin" asp-action="DashBoard">
+                <h1><span>FUJI</span>YAMA</h1>
+            </a>
+        </div>
+        <hr/>
+        <ul class="navbar-nav">
+            @if(cpf == null)
+            {
+                <li class="nav-item dropdown">
+                    <img src="~/assets/imagens/pessoaAzul.svg" class="iconeDash" />
+                    <a class="nav-link dashLink" asp-controller="Cliente" asp-action="Cadastrar">
+                        Cadastrar
+                    </a>
+                </li>
+                <li class="nav-item dropdown">
+                    <img src="~/assets/imagens/pessoaAzul.svg" class="iconeDash" />
+                    <a class="nav-link dashLink" asp-controller="Cliente" asp-action="Login">
+                        Login
+                    </a>
+                </li>
+            }
+            else
+            {
+                <li class="nav-item dropdown">
+                    <img src="~/assets/imagens/pessoaAzul.svg" class="iconeDash" />
+                    <a class="nav-link dashLink" asp-controller="Cliente" asp-action="Editar">
+                        Alterar Informações
+                    </a>
+                </li>
+                <li class="nav-item dropdown">
+                    <img src="~/assets/imagens/pessoaAzul.svg" class="iconeDash" />
+                    <a class="nav-link dashLink" asp-controller="Cliente" asp-action="Historico">
+                        Histórico
+                    </a>
+                </li>
+                <li class="nav-item dropdown">
+                    <img src="~/assets/imagens/pessoaAzul.svg" class="iconeDash" />
+                    <a class="nav-link dashLink" asp-controller="Cliente" asp-action="Logout">
+                        Logout
+                    </a>
+                </li>
+            }
+        </ul>
+
+        <div class="containerUserInfo">
+            <hr />
+            <div class="infoUsuario d-flex flex-row">
+                <img src="~/assets/imagens/userIcon.svg" class="me-2 userIcon">
+                <div class="d-flex flex-column justify-content-between">
+                    <h4 class="text-black">Hideo Kojima</h4>
+                    <h5>CEO</h5>
+                </div>
+            </div>
+            <a id="logout" asp-controller="Home" asp-action="Index">
+                <img src="~/assets/imagens/logoutIcon.svg" />
+            </a>
+        </div>
+    </nav>
+    <div class="container-fluid flex-grow-1 fundoAzulado ps-0 pe-0">
+        <main role="main" class="pb-4 ps-4 pt-4">
+            @RenderBody()
+        </main>
+    </div>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true" defer></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

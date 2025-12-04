@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("projetoFuji")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f3d95e714dbc8a57c3a128d6f024354cfd37d321")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f8729c3f34f42c15a68c55c44b09a2511e5d4f92")]
 [assembly: System.Reflection.AssemblyProductAttribute("projetoFuji")]
 [assembly: System.Reflection.AssemblyTitleAttribute("projetoFuji")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

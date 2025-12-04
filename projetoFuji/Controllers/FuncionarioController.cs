@@ -182,8 +182,6 @@ namespace projetoFuji.Controllers
             command.Parameters.AddWithValue("@DataDeAdmissao", model.Funcionario.DataDeAdmissao);
             command.Parameters.AddWithValue("@DataDemissao", model.Funcionario.DataDemissao);
 
-            Console.WriteLine(model.Pessoa.Cpf);
-
             command.ExecuteNonQuery();
 
             return RedirectToAction("Listar", "Funcionario");

@@ -1,0 +1,75 @@
+﻿@model projetoFuji.Models.ClientePessoa
+
+@{
+    ViewData["Title"] = "Editar";
+    Layout = "_LayoutCliente";
+    string? cpf = TempData.Peek("cpf") as string;
+    if (!string.IsNullOrEmpty(cpf))
+    {
+        TempData.Keep("Cpf"); //
+    }
+}
+
+<h1>Editar</h1>
+<span>@cpf</span>
+<h4>Pessoa</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Editar">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Pessoa.Cpf" class="control-label"></label>
+                <input asp-for="Pessoa.Cpf" class="form-control" />
+                <span asp-validation-for="Pessoa.Cpf" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Pessoa.Nome" class="control-label"></label>
+                <input asp-for="Pessoa.Nome" class="form-control" />
+                <span asp-validation-for="Pessoa.Nome" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Pessoa.Genero" class="control-label"></label>
+                <input asp-for="Pessoa.Genero" class="form-control" />
+                <span asp-validation-for="Pessoa.Genero" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Pessoa.Telefone" class="control-label"></label>
+                <input asp-for="Pessoa.Telefone" class="form-control" />
+                <span asp-validation-for="Pessoa.Telefone" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Pessoa.Email" class="control-label"></label>
+                <input asp-for="Pessoa.Email" class="form-control" />
+                <span asp-validation-for="Pessoa.Email" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Pessoa.Idade" class="control-label"></label>
+                <input asp-for="Pessoa.Idade" class="form-control" />
+                <span asp-validation-for="Pessoa.Idade" class="text-danger"></span>
+            </div>
+            <hr />
+
+            <h5>Dados do Funcionário</h5>
+            <div class="form-group">
+                <label asp-for="Cliente.Senha" class="control-label"></label>
+                <input asp-for="Cliente.Senha" class="form-control" />
+                <span asp-validation-for="Cliente.Senha" class="text-danger"></span>
+            </div>
+            
+            <div class="form-group">
+                <input type="submit" value="Salvar" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Voltar</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
