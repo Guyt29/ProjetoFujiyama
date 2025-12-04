@@ -68,9 +68,8 @@
                 @Html.DisplayFor(modelItem => item.Fornecedor)
             </td>
             <td>
-                @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
-                @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
-                @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+                    @Html.ActionLink("Editar", "Editar", new { Codigo_de_barras = item.Codigo_de_barras }) |
+                @Html.ActionLink("Deletar", "Deletar", new { Codigo_de_barras = item.Codigo_de_barras }, new { onclick = "return confirm('Deseja demitir?')"})
             </td>
         </tr>
 }

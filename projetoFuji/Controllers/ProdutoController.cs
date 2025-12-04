@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Humanizer;
+using Microsoft.AspNetCore.Mvc;
 using MySql.Data.MySqlClient;
 using projetoFuji.Models;
 using System.Data;
@@ -188,5 +189,80 @@ namespace projetoFuji.Controllers
 
             return RedirectToAction("Listar", "Produto");
         }
+        [HttpGet]
+        public IActionResult CadastrarCategoriaProduto()
+        {
+            return View();
+        }
+        [HttpPost]
+        public IActionResult CadastrarCategoriaProduto(ProdutoCategoria produtoCategoria)
+        {
+            string? connectionString = _configuration.GetConnectionString("DefaultConnection"); //pega a string de conexão
+            using var connection = new MySqlConnection(connectionString);
+            connection.Open();
+
+            string sql = @"INSERT INTO tbProdutoCategoria   
+                                  VALUES(@Categoria, @Produto)";
+
+            MySqlCommand command = new MySqlCommand(sql, connection); //adiciona os parametros
+            command.Parameters.AddWithValue("@Categoria", produtoCategoria.Categoria.ID);
+            command.Parameters.AddWithValue("@Produto", produtoCategoria.Produto.Codigo_de_barras);
+
+            command.ExecuteNonQuery(); //executa
+
+            return RedirectToAction("ListarCategoriaPorProduto", "Produto", new { codigo_de_barras = produtoCategoria.Produto.Codigo_de_barras });
+        }
+        public IActionResult ListarCategoriaPorProduto(string codigo_de_barras)
+        {
+            List<ProdutoCategoria> produtoCategorias = new List<ProdutoCategoria>();
+            using (var conn = new MySqlConnection(_configuration.GetConnectionString("DefaultConnection")))
+            {
+                conn.Open();
+                string sql = @"SELECT p.codigo_de_barras, p.Nome AS prodNome, c.Id, c.Nome AS cateNome, c.descricao
+                            FROM tbProdutoCategoria pc
+                            INNER JOIN tbProduto p ON p.codigo_de_barras = pc.codigo_de_barras
+                            INNER JOIN tbCategoria c on c.Id = pc.Categoria
+                            WHERE pc.codigo_de_barras = @Codigo_de_Barras";
+
+                MySqlCommand command = new MySqlCommand(sql, conn);
+                command.Parameters.AddWithValue("@Codigo_de_Barras", codigo_de_barras);
+
+                MySqlDataAdapter adapter = new MySqlDataAdapter(command);
+                DataTable dataTable = new DataTable();
+                adapter.Fill(dataTable);
+                conn.Close();
+
+                foreach (DataRow row in dataTable.Rows)
+                {
+                    var viewModel = new ProdutoCategoria();
+
+                    viewModel.Produto.Codigo_de_barras = row["Codigo_de_Barras"].ToString();
+                    viewModel.Produto.Nome = row["prodNome"].ToString();
+                    viewModel.Categoria.ID = Convert.ToInt32(row["Id"]);
+                    viewModel.Categoria.Nome = row["cateNome"].ToString();
+                    viewModel.Categoria.Descricao = row["descricao"].ToString();
+
+                    produtoCategorias.Add(viewModel);
+
+                }
+
+                return View(produtoCategorias);
+            }
+        }
+        public IActionResult DeletarProdutoCategoria(string codigo_de_barras, int id)
+        {
+            string? connectionString = _configuration.GetConnectionString("DefaultConnection");
+            using var connection = new MySqlConnection(connectionString);
+            connection.Open();
+
+            string sql = "Delete from tbProdutoCategoria WHERE Codigo_de_barras = @Codigo_de_barras && Categoria = @Id";
+            MySqlCommand command = new MySqlCommand(sql, connection);
+            command.Parameters.AddWithValue("@Codigo_de_barras", codigo_de_barras);
+            command.Parameters.AddWithValue("@Id", id);
+
+            command.ExecuteNonQuery();
+
+            return RedirectToAction("ListarCategoriaPorProduto", "Produto", new {codigo_de_barras = codigo_de_barras});
+        } 
     }
 }

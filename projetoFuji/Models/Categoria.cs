@@ -10,10 +10,12 @@ namespace projetoFuji.Models
 
         [Required]
         [Display(Name = "Descrição")]
+        [StringLength(200)]
         public string? Descricao { get; set; }
 
         [Required]
         [Display(Name = "Nome")]
+        [StringLength(100)]
         public string? Nome { get; set; }
     }
 }

@@ -69,7 +69,7 @@ CREATE TABLE tbFolhaDePagamento(
 CREATE TABLE tbCliente(
 	Cpf decimal(11,0) primary key,
     DataCadastro date not null, 
-    DataPrimeiraCompra date not null, 
+    DataPrimeiraCompra date,
     foreign key(Cpf) references tbPessoa(Cpf)
 ); 
 

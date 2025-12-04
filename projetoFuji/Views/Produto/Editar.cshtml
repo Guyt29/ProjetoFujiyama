@@ -1,0 +1,71 @@
+﻿@model projetoFuji.Models.Produto
+
+@{
+    ViewData["Title"] = "Editar";
+    Layout = "_LayoutDash";
+}
+
+<h1>Editar</h1>
+
+<h4>Produto</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Editar">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Codigo_de_barras" class="control-label"></label>
+                <input asp-for="Codigo_de_barras" class="form-control" />
+                <span asp-validation-for="Codigo_de_barras" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Preco" class="control-label"></label>
+                <input asp-for="Preco" class="form-control" />
+                <span asp-validation-for="Preco" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Custo" class="control-label"></label>
+                <input asp-for="Custo" class="form-control" />
+                <span asp-validation-for="Custo" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Nome" class="control-label"></label>
+                <input asp-for="Nome" class="form-control" />
+                <span asp-validation-for="Nome" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Pais_de_origem" class="control-label"></label>
+                <input asp-for="Pais_de_origem" class="form-control" />
+                <span asp-validation-for="Pais_de_origem" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Descricao" class="control-label"></label>
+                <input asp-for="Descricao" class="form-control" />
+                <span asp-validation-for="Descricao" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Qtd" class="control-label"></label>
+                <input asp-for="Qtd" class="form-control" />
+                <span asp-validation-for="Qtd" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Fornecedor" class="control-label"></label>
+                <input asp-for="Fornecedor" class="form-control" />
+                <span asp-validation-for="Fornecedor" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+    @Html.ActionLink("Listar Categoria Por Produto", "ListarCategoriaPorProduto", new { codigo_de_barras = Model.Codigo_de_barras })
+
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

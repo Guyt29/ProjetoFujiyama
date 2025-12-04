@@ -1,0 +1,47 @@
+﻿@model IEnumerable<projetoFuji.Models.Categoria>
+
+@{
+    ViewData["Title"] = "Listar";
+    Layout = "_LayoutDash";
+}
+
+<h1>Listar</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.ID)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Descricao)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Nome)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.ID)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Descricao)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nome)
+            </td>
+            <td>
+                    @Html.ActionLink("Editar", "Editar", new {Id = item.ID }) |
+                    @Html.ActionLink("Deletar", "Deletar", new { Id = item.ID }, new { onclick = "return confirm('Deseja deletar?');" })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

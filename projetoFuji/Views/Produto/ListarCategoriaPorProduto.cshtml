@@ -1,0 +1,57 @@
+﻿@model IEnumerable<projetoFuji.Models.ProdutoCategoria>
+
+@{
+    ViewData["Title"] = "ListarCategoriaPorProduto";
+    Layout = "_LayoutDash";
+}
+
+<h1>ListarCategoriaPorProduto</h1>
+
+<p>
+    <a asp-controller="Produto" asp-action="CadastrarCategoriaProduto">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Produto.Codigo_de_barras)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Produto.Nome)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Categoria.ID)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Categoria.Nome)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Categoria.Descricao)
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Produto.Codigo_de_barras)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Produto.Nome)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Categoria.ID)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Categoria.Nome)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Categoria.Descricao)
+            </td>
+            <td>
+                @Html.ActionLink("Deletar", "DeletarProdutoCategoria", new {codigo_de_barras = item.Produto.Codigo_de_barras, id = item.Categoria.ID })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
