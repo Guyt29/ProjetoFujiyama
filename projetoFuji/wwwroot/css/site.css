@@ -125,6 +125,7 @@ body {
 }
 .produtoBody img{
     width: 185px; 
+    height: 200px;
 }
 .produtoSeccaoHeader h2 {
     font-family: 'IntegralCF', sans-serif;
@@ -163,10 +164,15 @@ body {
     border-radius: 15px !important
 }
 .imagemAvaliacao{
-    margin-right: 6rem;
+    margin-right: 3rem;
+    width: 500px;
+    height:250px;
 }
+
 .imagemAvaliacaoEsquerda{
     margin-left: 3rem;
+    width: 500px;
+    height:250px;
 }
 .avaliacoes h1 {
     font-family: 'Inter', sans-serif;
