@@ -1,0 +1,64 @@
+﻿@model IEnumerable<projetoFuji.Models.FolhaDePagamento>
+
+@{
+    ViewData["Title"] = "Listar";
+    Layout = "_LayoutDash";
+}
+
+<h1>Listar</h1>
+
+<p>
+    @Html.ActionLink("Registrar Pagamentos", "Cadastrar", "FolhaDePagamento", new { cpf = ViewBag.cpf, salario = ViewBag.salario})
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Id)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Salario)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ValorAjuste)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DataPagamento)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Cpf)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ValorPago)
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Salario)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ValorAjuste)
+            </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DataPagamento)
+                </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Cpf)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ValorPago)
+            </td>
+            <td>
+                @Html.ActionLink("Editar", "Editar", new {id = item.Id, cpf = item.Cpf}) |
+                    @Html.ActionLink("Deletar", "Deletar", new { id = item.Id, cpf = item.Cpf })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

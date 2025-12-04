@@ -1,0 +1,54 @@
+﻿@model projetoFuji.Models.FolhaDePagamento
+
+@{
+    ViewData["Title"] = "Cadastrar";
+    Layout = "_LayoutDash";
+}
+
+<h1>Cadastrar</h1>
+
+<h4>FolhaDePagamento</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Cadastrar">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Id" class="control-label"></label>
+                <input asp-for="Id" class="form-control"/>
+                <span asp-validation-for="Id" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Salario" class="control-label"></label>
+                <input asp-for="Salario" class="form-control"/>
+                <span asp-validation-for="Salario" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DataPagamento" class="control-label"></label>
+                <input asp-for="DataPagamento" type="date" class="form-control" />
+                <span asp-validation-for="DataPagamento" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ValorAjuste" class="control-label"></label>
+                <input asp-for="ValorAjuste" class="form-control" />
+                <span asp-validation-for="ValorAjuste" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Cpf" class="control-label"></label>
+                <input asp-for="Cpf" class="form-control" />
+                <span asp-validation-for="Cpf" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Listar" asp-controller="FolhaDePagamento">De volta</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

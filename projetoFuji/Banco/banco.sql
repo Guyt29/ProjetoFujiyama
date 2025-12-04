@@ -46,7 +46,7 @@ CREATE TABLE tbPessoa(
     telefone char(11) not null
 );
 
-CREATE TABLE tbFuncionario(
+CREATE TABLE tbFuncionarios(
 	Cpf decimal(11,0) PRIMARY KEY, 
     Supervisor decimal(11,0),
     funcao varchar(75) not null,
@@ -58,14 +58,14 @@ CREATE TABLE tbFuncionario(
 );
 
 CREATE TABLE tbFolhaDePagamento(
-	Id int primary key,
+	Id int primary key AUTO_INCREMENT,
     Salario decimal(8,2) not null,
     ValorAjuste decimal(8,2) not null,
     DataPagamento date not null,
-    Funcionario decimal(11,0), 
+    Funcionario decimal(11,0) NOT NULL, 
     foreign key(Funcionario) references tbFuncionarios(cpf)
 );
-
+DROP TABLE tbFolhaDePagamento;
 CREATE TABLE tbCliente(
 	Cpf decimal(11,0) primary key,
     DataCadastro date not null, 
@@ -125,7 +125,7 @@ BEGIN
     telefone = vTelefone
     WHERE Cpf = vCpf;
     
-    UPDATE tbFuncionario SET
+    UPDATE tbFuncionarios SET
     Supervisor = vSupervisor,
     funcao = vFuncao,
     salario = vSalario,
@@ -144,12 +144,21 @@ BEGIN
 END $$
 
 
+call sp_demitir_funcionario(12345678910);
+SELECT * FROM tbCategoria;
 
-select * from tbPessoa;
 select * from TBFuncionarioS;
             SELECT 
                 p.Cpf, p.Nome, p.Email, p.Genero, p.Idade, p.Telefone,
                 f.Supervisor, f.Funcao, f.Salario, f.DataDeAdmissao, f.DataDemissao
             FROM tbPessoa p
             INNER JOIN tbFuncionarios f ON p.Cpf = f.Cpf;
-
+            
+            
+            DESCRIBE tbProdutoCategoria
+SELECT p.codigo_de_barras, p.Nome AS prodNome, c.Id, c.Nome AS cateNome, c.descricao
+                            FROM tbProdutoCategoria pc
+                            INNER JOIN tbProduto p ON p.codigo_de_barras = pc.codigo_de_barras
+                            INNER JOIN tbCategoria c on c.Id = pc.Categoria
+                            WHERE pc.codigo_de_barras = 1234567891011;
+SELECT * FROM tbProdutoCategoria;

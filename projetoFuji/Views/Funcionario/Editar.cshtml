@@ -89,6 +89,8 @@
 
 <div>
     <a asp-action="Index">Back to List</a>
+    @Html.ActionLink("Gerenciar Pagamentos", "Listar", "FolhaDePagamento", new {cpf = Model.Pessoa.Cpf, salario = Model.Funcionario.Salario})
+
 </div>
 
 @section Scripts {
