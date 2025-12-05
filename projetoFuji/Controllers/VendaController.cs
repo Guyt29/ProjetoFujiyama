@@ -66,7 +66,7 @@ namespace projetoFuji.Controllers
             }
             connection.Close();
 
-            return RedirectToAction("Index", "Venda"); //volta pra lista
+            return RedirectToAction("Index", "Cliente"); //volta pra lista
 
         }
         public IActionResult Historico(string? cpf)
