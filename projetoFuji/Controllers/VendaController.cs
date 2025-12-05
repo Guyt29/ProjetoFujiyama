@@ -207,7 +207,7 @@ namespace projetoFuji.Controllers
 
             commandVenda.ExecuteNonQuery();
 
-            return RedirectToAction("Listar", "Vendar");
+            return RedirectToAction("Listar", "Venda");
         }
 
     }

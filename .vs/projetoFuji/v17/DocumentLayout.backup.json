@@ -3,6 +3,62 @@
   "WorkspaceRootPath": "C:\\Users\\2ds\\Documents\\ProjetoFujiyama\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|c:\\users\\2ds\\documents\\projetofujiyama\\projetofuji\\controllers\\vendacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|solutionrelative:projetofuji\\controllers\\vendacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|c:\\users\\2ds\\documents\\projetofujiyama\\projetofuji\\views\\venda\\listar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|solutionrelative:projetofuji\\views\\venda\\listar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|c:\\users\\2ds\\documents\\projetofujiyama\\projetofuji\\controllers\\categoriacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|solutionrelative:projetofuji\\controllers\\categoriacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|c:\\users\\2ds\\documents\\projetofujiyama\\projetofuji\\controllers\\funcionariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|solutionrelative:projetofuji\\controllers\\funcionariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|c:\\users\\2ds\\documents\\projetofujiyama\\projetofuji\\views\\folhadepagamento\\listar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|solutionrelative:projetofuji\\views\\folhadepagamento\\listar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|c:\\users\\2ds\\documents\\projetofujiyama\\projetofuji\\views\\folhadepagamento\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|solutionrelative:projetofuji\\views\\folhadepagamento\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|c:\\users\\2ds\\documents\\projetofujiyama\\projetofuji\\wwwroot\\css\\_layoutdash.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|solutionrelative:projetofuji\\wwwroot\\css\\_layoutdash.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|c:\\users\\2ds\\documents\\projetofujiyama\\projetofuji\\wwwroot\\css\\sobrenos.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|solutionrelative:projetofuji\\wwwroot\\css\\sobrenos.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|c:\\users\\2ds\\documents\\projetofujiyama\\projetofuji\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|solutionrelative:projetofuji\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|c:\\users\\2ds\\documents\\projetofujiyama\\projetofuji\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|solutionrelative:projetofuji\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|c:\\users\\2ds\\documents\\projetofujiyama\\projetofuji\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|solutionrelative:projetofuji\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|c:\\users\\2ds\\documents\\projetofujiyama\\projetofuji\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|solutionrelative:projetofuji\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|c:\\users\\2ds\\documents\\projetofujiyama\\projetofuji\\views\\admin\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|solutionrelative:projetofuji\\views\\admin\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|c:\\users\\2ds\\documents\\projetofujiyama\\projetofuji\\projetofuji.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|solutionrelative:projetofuji\\projetofuji.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|c:\\users\\2ds\\documents\\projetofujiyama\\projetofuji\\views\\sobrenos\\institucional.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|solutionrelative:projetofuji\\views\\sobrenos\\institucional.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -13,18 +69,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|c:\\users\\2ds\\documents\\projetofujiyama\\projetofuji\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|solutionrelative:projetofuji\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|c:\\users\\2ds\\documents\\projetofujiyama\\projetofuji\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|solutionrelative:projetofuji\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|c:\\users\\2ds\\documents\\projetofujiyama\\projetofuji\\controllers\\funcionariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|solutionrelative:projetofuji\\controllers\\funcionariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|c:\\users\\2ds\\documents\\projetofujiyama\\projetofuji\\controllers\\vendacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|solutionrelative:projetofuji\\controllers\\vendacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|c:\\users\\2ds\\documents\\projetofujiyama\\projetofuji\\controllers\\folhadepagamentocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -43,10 +87,6 @@
       "RelativeMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|solutionrelative:projetofuji\\views\\categoria\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|c:\\users\\2ds\\documents\\projetofujiyama\\projetofuji\\views\\folhadepagamento\\listar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|solutionrelative:projetofuji\\views\\folhadepagamento\\listar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|c:\\users\\2ds\\documents\\projetofujiyama\\projetofuji\\views\\categoria\\cadastrar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|solutionrelative:projetofuji\\views\\categoria\\cadastrar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -57,10 +97,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|c:\\users\\2ds\\documents\\projetofujiyama\\projetofuji\\views\\cliente\\cadastrar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|solutionrelative:projetofuji\\views\\cliente\\cadastrar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|c:\\users\\2ds\\documents\\projetofujiyama\\projetofuji\\views\\folhadepagamento\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|solutionrelative:projetofuji\\views\\folhadepagamento\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|c:\\users\\2ds\\documents\\projetofujiyama\\projetofuji\\views\\folhadepagamento\\cadastrar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -115,16 +151,8 @@
       "RelativeMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|solutionrelative:projetofuji\\views\\venda\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|c:\\users\\2ds\\documents\\projetofujiyama\\projetofuji\\views\\venda\\listar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|solutionrelative:projetofuji\\views\\venda\\listar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|c:\\users\\2ds\\documents\\projetofujiyama\\projetofuji\\models\\venda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|solutionrelative:projetofuji\\models\\venda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|c:\\users\\2ds\\documents\\projetofujiyama\\projetofuji\\controllers\\categoriacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|solutionrelative:projetofuji\\controllers\\categoriacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|c:\\users\\2ds\\documents\\projetofujiyama\\projetofuji\\views\\shared\\_layoutdash.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -171,10 +199,6 @@
       "RelativeMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|solutionrelative:projetofuji\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|c:\\users\\2ds\\documents\\projetofujiyama\\projetofuji\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|solutionrelative:projetofuji\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|c:\\users\\2ds\\documents\\projetofujiyama\\projetofuji\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|solutionrelative:projetofuji\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -205,10 +229,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|c:\\users\\2ds\\documents\\projetofujiyama\\projetofuji\\projetofuji.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|solutionrelative:projetofuji\\projetofuji.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|c:\\users\\2ds\\documents\\projetofujiyama\\projetofuji\\banco\\banco.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
-      "RelativeMoniker": "D:0:0:{B488B601-4D64-4866-BCBE-3D2D0B5C6B57}|projetoFuji\\projetoFuji.csproj|solutionrelative:projetofuji\\banco\\banco.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
     }
   ],
   "DocumentGroupContainers": [
@@ -218,11 +238,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 12,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "site.css",
               "DocumentMoniker": "C:\\Users\\2ds\\Documents\\ProjetoFujiyama\\projetoFuji\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "projetoFuji\\wwwroot\\css\\site.css",
@@ -236,7 +256,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 16,
               "Title": "ClienteController.cs",
               "DocumentMoniker": "C:\\Users\\2ds\\Documents\\ProjetoFujiyama\\projetoFuji\\Controllers\\ClienteController.cs",
               "RelativeDocumentMoniker": "projetoFuji\\Controllers\\ClienteController.cs",
@@ -250,13 +270,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "FuncionarioController.cs",
               "DocumentMoniker": "C:\\Users\\2ds\\Documents\\ProjetoFujiyama\\projetoFuji\\Controllers\\FuncionarioController.cs",
               "RelativeDocumentMoniker": "projetoFuji\\Controllers\\FuncionarioController.cs",
               "ToolTip": "C:\\Users\\2ds\\Documents\\ProjetoFujiyama\\projetoFuji\\Controllers\\FuncionarioController.cs",
               "RelativeToolTip": "projetoFuji\\Controllers\\FuncionarioController.cs",
-              "ViewState": "AgIAAKwAAAAAAAAAAAAqwLMAAABDAAAAAAAAAA==",
+              "ViewState": "AgIAAL4AAAAAAAAAAAAgwLgAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-04T14:30:03.722Z",
               "IsPinned": true,
@@ -264,7 +284,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 37,
               "Title": "Venda.cs",
               "DocumentMoniker": "C:\\Users\\2ds\\Documents\\ProjetoFujiyama\\projetoFuji\\Models\\Venda.cs",
               "RelativeDocumentMoniker": "projetoFuji\\Models\\Venda.cs",
@@ -277,13 +297,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "VendaController.cs",
               "DocumentMoniker": "C:\\Users\\2ds\\Documents\\ProjetoFujiyama\\projetoFuji\\Controllers\\VendaController.cs",
               "RelativeDocumentMoniker": "projetoFuji\\Controllers\\VendaController.cs",
               "ToolTip": "C:\\Users\\2ds\\Documents\\ProjetoFujiyama\\projetoFuji\\Controllers\\VendaController.cs",
               "RelativeToolTip": "projetoFuji\\Controllers\\VendaController.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAYwEEAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAALkAAAAAAAAAAAAUwNEAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-05T01:07:53.255Z",
               "IsPinned": true,
@@ -299,7 +319,140 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 7,
+              "Title": "sobrenos.css",
+              "DocumentMoniker": "C:\\Users\\2ds\\Documents\\ProjetoFujiyama\\projetoFuji\\wwwroot\\css\\sobrenos.css",
+              "RelativeDocumentMoniker": "projetoFuji\\wwwroot\\css\\sobrenos.css",
+              "ToolTip": "C:\\Users\\2ds\\Documents\\ProjetoFujiyama\\projetoFuji\\wwwroot\\css\\sobrenos.css",
+              "RelativeToolTip": "projetoFuji\\wwwroot\\css\\sobrenos.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-12-05T12:15:54.605Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\2ds\\Documents\\ProjetoFujiyama\\projetoFuji\\appsettings.json",
+              "RelativeDocumentMoniker": "projetoFuji\\appsettings.json",
+              "ToolTip": "C:\\Users\\2ds\\Documents\\ProjetoFujiyama\\projetoFuji\\appsettings.json",
+              "RelativeToolTip": "projetoFuji\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-05T12:15:35.096Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CategoriaController.cs",
+              "DocumentMoniker": "C:\\Users\\2ds\\Documents\\ProjetoFujiyama\\projetoFuji\\Controllers\\CategoriaController.cs",
+              "RelativeDocumentMoniker": "projetoFuji\\Controllers\\CategoriaController.cs",
+              "ToolTip": "C:\\Users\\2ds\\Documents\\ProjetoFujiyama\\projetoFuji\\Controllers\\CategoriaController.cs",
+              "RelativeToolTip": "projetoFuji\\Controllers\\CategoriaController.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAA3wHUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T14:27:53.935Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Editar.cshtml",
+              "DocumentMoniker": "C:\\Users\\2ds\\Documents\\ProjetoFujiyama\\projetoFuji\\Views\\FolhaDePagamento\\Editar.cshtml",
+              "RelativeDocumentMoniker": "projetoFuji\\Views\\FolhaDePagamento\\Editar.cshtml",
+              "ToolTip": "C:\\Users\\2ds\\Documents\\ProjetoFujiyama\\projetoFuji\\Views\\FolhaDePagamento\\Editar.cshtml",
+              "RelativeToolTip": "projetoFuji\\Views\\FolhaDePagamento\\Editar.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-04T14:51:04.257Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Listar.cshtml",
+              "DocumentMoniker": "C:\\Users\\2ds\\Documents\\ProjetoFujiyama\\projetoFuji\\Views\\FolhaDePagamento\\Listar.cshtml",
+              "RelativeDocumentMoniker": "projetoFuji\\Views\\FolhaDePagamento\\Listar.cshtml",
+              "ToolTip": "C:\\Users\\2ds\\Documents\\ProjetoFujiyama\\projetoFuji\\Views\\FolhaDePagamento\\Listar.cshtml",
+              "RelativeToolTip": "projetoFuji\\Views\\FolhaDePagamento\\Listar.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-04T14:51:02.336Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Listar.cshtml",
+              "DocumentMoniker": "C:\\Users\\2ds\\Documents\\ProjetoFujiyama\\projetoFuji\\Views\\Venda\\Listar.cshtml",
+              "RelativeDocumentMoniker": "projetoFuji\\Views\\Venda\\Listar.cshtml",
+              "ToolTip": "C:\\Users\\2ds\\Documents\\ProjetoFujiyama\\projetoFuji\\Views\\Venda\\Listar.cshtml",
+              "RelativeToolTip": "projetoFuji\\Views\\Venda\\Listar.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAADMAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-05T02:03:47.854Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_LayoutDash.css",
+              "DocumentMoniker": "C:\\Users\\2ds\\Documents\\ProjetoFujiyama\\projetoFuji\\wwwroot\\css\\_LayoutDash.css",
+              "RelativeDocumentMoniker": "projetoFuji\\wwwroot\\css\\_LayoutDash.css",
+              "ToolTip": "C:\\Users\\2ds\\Documents\\ProjetoFujiyama\\projetoFuji\\wwwroot\\css\\_LayoutDash.css",
+              "RelativeToolTip": "projetoFuji\\wwwroot\\css\\_LayoutDash.css",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-12-05T12:15:55.648Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\2ds\\Documents\\ProjetoFujiyama\\projetoFuji\\Program.cs",
+              "RelativeDocumentMoniker": "projetoFuji\\Program.cs",
+              "ToolTip": "C:\\Users\\2ds\\Documents\\ProjetoFujiyama\\projetoFuji\\Program.cs",
+              "RelativeToolTip": "projetoFuji\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T12:14:10.711Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "DashBoard.cshtml",
+              "DocumentMoniker": "C:\\Users\\2ds\\Documents\\ProjetoFujiyama\\projetoFuji\\Views\\Admin\\DashBoard.cshtml",
+              "RelativeDocumentMoniker": "projetoFuji\\Views\\Admin\\DashBoard.cshtml",
+              "ToolTip": "C:\\Users\\2ds\\Documents\\ProjetoFujiyama\\projetoFuji\\Views\\Admin\\DashBoard.cshtml",
+              "RelativeToolTip": "projetoFuji\\Views\\Admin\\DashBoard.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-05T12:15:30.101Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "projetoFuji",
+              "DocumentMoniker": "C:\\Users\\2ds\\Documents\\ProjetoFujiyama\\projetoFuji\\projetoFuji.csproj",
+              "RelativeDocumentMoniker": "projetoFuji\\projetoFuji.csproj",
+              "ToolTip": "C:\\Users\\2ds\\Documents\\ProjetoFujiyama\\projetoFuji\\projetoFuji.csproj",
+              "RelativeToolTip": "projetoFuji\\projetoFuji.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-12-05T12:15:14.631Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
               "Title": "Listar.cshtml",
               "DocumentMoniker": "C:\\Users\\2ds\\Documents\\ProjetoFujiyama\\projetoFuji\\Views\\Categoria\\Listar.cshtml",
               "RelativeDocumentMoniker": "projetoFuji\\Views\\Categoria\\Listar.cshtml",
@@ -311,19 +464,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "banco.sql ",
+              "DocumentIndex": 9,
+              "Title": "site.js",
+              "DocumentMoniker": "C:\\Users\\2ds\\Documents\\ProjetoFujiyama\\projetoFuji\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "projetoFuji\\wwwroot\\js\\site.js",
+              "ToolTip": "C:\\Users\\2ds\\Documents\\ProjetoFujiyama\\projetoFuji\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "projetoFuji\\wwwroot\\js\\site.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-12-04T15:27:18.071Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "banco.sql",
               "DocumentMoniker": "C:\\Users\\2ds\\Documents\\ProjetoFujiyama\\projetoFuji\\Banco\\banco.sql",
               "RelativeDocumentMoniker": "projetoFuji\\Banco\\banco.sql",
               "ToolTip": "C:\\Users\\2ds\\Documents\\ProjetoFujiyama\\projetoFuji\\Banco\\banco.sql",
               "RelativeToolTip": "projetoFuji\\Banco\\banco.sql",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2025-12-04T14:35:35.221Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-04T14:35:35.221Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 22,
               "Title": "Editar.cshtml",
               "DocumentMoniker": "C:\\Users\\2ds\\Documents\\ProjetoFujiyama\\projetoFuji\\Views\\Cliente\\Editar.cshtml",
               "RelativeDocumentMoniker": "projetoFuji\\Views\\Cliente\\Editar.cshtml",
@@ -335,19 +500,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Editar.cshtml",
-              "DocumentMoniker": "C:\\Users\\2ds\\Documents\\ProjetoFujiyama\\projetoFuji\\Views\\FolhaDePagamento\\Editar.cshtml",
-              "RelativeDocumentMoniker": "projetoFuji\\Views\\FolhaDePagamento\\Editar.cshtml",
-              "ToolTip": "C:\\Users\\2ds\\Documents\\ProjetoFujiyama\\projetoFuji\\Views\\FolhaDePagamento\\Editar.cshtml",
-              "RelativeToolTip": "projetoFuji\\Views\\FolhaDePagamento\\Editar.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-04T14:51:04.257Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 15,
               "Title": "ProdutoController.cs",
               "DocumentMoniker": "C:\\Users\\2ds\\Documents\\ProjetoFujiyama\\projetoFuji\\Controllers\\ProdutoController.cs",
               "RelativeDocumentMoniker": "projetoFuji\\Controllers\\ProdutoController.cs",
@@ -355,29 +508,24 @@
               "RelativeToolTip": "projetoFuji\\Controllers\\ProdutoController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T14:40:48.742Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-04T14:40:48.742Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 14,
               "Title": "institucional.cshtml",
               "DocumentMoniker": "C:\\Users\\2ds\\Documents\\ProjetoFujiyama\\projetoFuji\\Views\\Sobrenos\\institucional.cshtml",
               "RelativeDocumentMoniker": "projetoFuji\\Views\\Sobrenos\\institucional.cshtml",
-              "ToolTip": "C:\\Users\\2ds\\Documents\\ProjetoFujiyama\\projetoFuji\\Views\\Sobrenos\\institucional.cshtml*",
-              "RelativeToolTip": "projetoFuji\\Views\\Sobrenos\\institucional.cshtml*",
+              "ToolTip": "C:\\Users\\2ds\\Documents\\ProjetoFujiyama\\projetoFuji\\Views\\Sobrenos\\institucional.cshtml",
+              "RelativeToolTip": "projetoFuji\\Views\\Sobrenos\\institucional.cshtml",
               "ViewState": "AgIAABsAAAAAAAAAAAAAADQAAABhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-12-05T01:53:45.772Z",
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 17,
               "Title": "FolhaDePagamentoController.cs",
               "DocumentMoniker": "C:\\Users\\2ds\\Documents\\ProjetoFujiyama\\projetoFuji\\Controllers\\FolhaDePagamentoController.cs",
               "RelativeDocumentMoniker": "projetoFuji\\Controllers\\FolhaDePagamentoController.cs",
@@ -385,12 +533,11 @@
               "RelativeToolTip": "projetoFuji\\Controllers\\FolhaDePagamentoController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T14:43:30.107Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-04T14:43:30.107Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 20,
               "Title": "Editar.cshtml",
               "DocumentMoniker": "C:\\Users\\2ds\\Documents\\ProjetoFujiyama\\projetoFuji\\Views\\Categoria\\Editar.cshtml",
               "RelativeDocumentMoniker": "projetoFuji\\Views\\Categoria\\Editar.cshtml",
@@ -402,7 +549,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 21,
               "Title": "Cadastrar.cshtml",
               "DocumentMoniker": "C:\\Users\\2ds\\Documents\\ProjetoFujiyama\\projetoFuji\\Views\\Categoria\\Cadastrar.cshtml",
               "RelativeDocumentMoniker": "projetoFuji\\Views\\Categoria\\Cadastrar.cshtml",
@@ -414,19 +561,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Listar.cshtml",
-              "DocumentMoniker": "C:\\Users\\2ds\\Documents\\ProjetoFujiyama\\projetoFuji\\Views\\FolhaDePagamento\\Listar.cshtml",
-              "RelativeDocumentMoniker": "projetoFuji\\Views\\FolhaDePagamento\\Listar.cshtml",
-              "ToolTip": "C:\\Users\\2ds\\Documents\\ProjetoFujiyama\\projetoFuji\\Views\\FolhaDePagamento\\Listar.cshtml",
-              "RelativeToolTip": "projetoFuji\\Views\\FolhaDePagamento\\Listar.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-04T14:51:02.336Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 24,
               "Title": "Cadastrar.cshtml",
               "DocumentMoniker": "C:\\Users\\2ds\\Documents\\ProjetoFujiyama\\projetoFuji\\Views\\FolhaDePagamento\\Cadastrar.cshtml",
               "RelativeDocumentMoniker": "projetoFuji\\Views\\FolhaDePagamento\\Cadastrar.cshtml",
@@ -438,7 +573,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 25,
               "Title": "Listar.cshtml",
               "DocumentMoniker": "C:\\Users\\2ds\\Documents\\ProjetoFujiyama\\projetoFuji\\Views\\Funcionario\\Listar.cshtml",
               "RelativeDocumentMoniker": "projetoFuji\\Views\\Funcionario\\Listar.cshtml",
@@ -450,7 +585,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 26,
               "Title": "Editar.cshtml",
               "DocumentMoniker": "C:\\Users\\2ds\\Documents\\ProjetoFujiyama\\projetoFuji\\Views\\Funcionario\\Editar.cshtml",
               "RelativeDocumentMoniker": "projetoFuji\\Views\\Funcionario\\Editar.cshtml",
@@ -462,7 +597,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 23,
               "Title": "Cadastrar.cshtml",
               "DocumentMoniker": "C:\\Users\\2ds\\Documents\\ProjetoFujiyama\\projetoFuji\\Views\\Cliente\\Cadastrar.cshtml",
               "RelativeDocumentMoniker": "projetoFuji\\Views\\Cliente\\Cadastrar.cshtml",
@@ -474,7 +609,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 27,
               "Title": "Cadastrar.cshtml",
               "DocumentMoniker": "C:\\Users\\2ds\\Documents\\ProjetoFujiyama\\projetoFuji\\Views\\Funcionario\\Cadastrar.cshtml",
               "RelativeDocumentMoniker": "projetoFuji\\Views\\Funcionario\\Cadastrar.cshtml",
@@ -486,7 +621,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 28,
               "Title": "ListarCategoriaPorProduto.cshtml",
               "DocumentMoniker": "C:\\Users\\2ds\\Documents\\ProjetoFujiyama\\projetoFuji\\Views\\Produto\\ListarCategoriaPorProduto.cshtml",
               "RelativeDocumentMoniker": "projetoFuji\\Views\\Produto\\ListarCategoriaPorProduto.cshtml",
@@ -498,7 +633,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 29,
               "Title": "Listar.cshtml",
               "DocumentMoniker": "C:\\Users\\2ds\\Documents\\ProjetoFujiyama\\projetoFuji\\Views\\Produto\\Listar.cshtml",
               "RelativeDocumentMoniker": "projetoFuji\\Views\\Produto\\Listar.cshtml",
@@ -510,7 +645,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 30,
               "Title": "Editar.cshtml",
               "DocumentMoniker": "C:\\Users\\2ds\\Documents\\ProjetoFujiyama\\projetoFuji\\Views\\Produto\\Editar.cshtml",
               "RelativeDocumentMoniker": "projetoFuji\\Views\\Produto\\Editar.cshtml",
@@ -522,7 +657,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 32,
               "Title": "Cadastrar.cshtml",
               "DocumentMoniker": "C:\\Users\\2ds\\Documents\\ProjetoFujiyama\\projetoFuji\\Views\\Produto\\Cadastrar.cshtml",
               "RelativeDocumentMoniker": "projetoFuji\\Views\\Produto\\Cadastrar.cshtml",
@@ -534,7 +669,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 33,
               "Title": "Cadastrar.cshtml",
               "DocumentMoniker": "C:\\Users\\2ds\\Documents\\ProjetoFujiyama\\projetoFuji\\Views\\Venda\\Cadastrar.cshtml",
               "RelativeDocumentMoniker": "projetoFuji\\Views\\Venda\\Cadastrar.cshtml",
@@ -546,7 +681,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 34,
               "Title": "Cadastrar.cshtml",
               "DocumentMoniker": "C:\\Users\\2ds\\Documents\\ProjetoFujiyama\\projetoFuji\\Views\\Fornecedor\\Cadastrar.cshtml",
               "RelativeDocumentMoniker": "projetoFuji\\Views\\Fornecedor\\Cadastrar.cshtml",
@@ -558,7 +693,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 31,
               "Title": "CadastrarCategoriaProduto.cshtml",
               "DocumentMoniker": "C:\\Users\\2ds\\Documents\\ProjetoFujiyama\\projetoFuji\\Views\\Produto\\CadastrarCategoriaProduto.cshtml",
               "RelativeDocumentMoniker": "projetoFuji\\Views\\Produto\\CadastrarCategoriaProduto.cshtml",
@@ -570,7 +705,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 35,
               "Title": "_Carrossel.cshtml",
               "DocumentMoniker": "C:\\Users\\2ds\\Documents\\ProjetoFujiyama\\projetoFuji\\Views\\Shared\\_Carrossel.cshtml",
               "RelativeDocumentMoniker": "projetoFuji\\Views\\Shared\\_Carrossel.cshtml",
@@ -582,19 +717,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "CategoriaController.cs",
-              "DocumentMoniker": "C:\\Users\\2ds\\Documents\\ProjetoFujiyama\\projetoFuji\\Controllers\\CategoriaController.cs",
-              "RelativeDocumentMoniker": "projetoFuji\\Controllers\\CategoriaController.cs",
-              "ToolTip": "C:\\Users\\2ds\\Documents\\ProjetoFujiyama\\projetoFuji\\Controllers\\CategoriaController.cs",
-              "RelativeToolTip": "projetoFuji\\Controllers\\CategoriaController.cs",
-              "ViewState": "AgIAAGIAAAAAAAAAAAAiwHUAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T14:27:53.935Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 38,
               "Title": "_LayoutDash.cshtml",
               "DocumentMoniker": "C:\\Users\\2ds\\Documents\\ProjetoFujiyama\\projetoFuji\\Views\\Shared\\_LayoutDash.cshtml",
               "RelativeDocumentMoniker": "projetoFuji\\Views\\Shared\\_LayoutDash.cshtml",
@@ -606,7 +729,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 36,
               "Title": "Editar.cshtml",
               "DocumentMoniker": "C:\\Users\\2ds\\Documents\\ProjetoFujiyama\\projetoFuji\\Views\\Venda\\Editar.cshtml",
               "RelativeDocumentMoniker": "projetoFuji\\Views\\Venda\\Editar.cshtml",
@@ -618,19 +741,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "Listar.cshtml",
-              "DocumentMoniker": "C:\\Users\\2ds\\Documents\\ProjetoFujiyama\\projetoFuji\\Views\\Venda\\Listar.cshtml",
-              "RelativeDocumentMoniker": "projetoFuji\\Views\\Venda\\Listar.cshtml",
-              "ToolTip": "C:\\Users\\2ds\\Documents\\ProjetoFujiyama\\projetoFuji\\Views\\Venda\\Listar.cshtml",
-              "RelativeToolTip": "projetoFuji\\Views\\Venda\\Listar.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-05T02:03:47.854Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 42,
               "Title": "_Categorias.cshtml",
               "DocumentMoniker": "C:\\Users\\2ds\\Documents\\ProjetoFujiyama\\projetoFuji\\Views\\Shared\\_Categorias.cshtml",
               "RelativeDocumentMoniker": "projetoFuji\\Views\\Shared\\_Categorias.cshtml",
@@ -642,7 +753,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 40,
               "Title": "Listar.cshtml",
               "DocumentMoniker": "C:\\Users\\2ds\\Documents\\ProjetoFujiyama\\projetoFuji\\Views\\Fornecedor\\Listar.cshtml",
               "RelativeDocumentMoniker": "projetoFuji\\Views\\Fornecedor\\Listar.cshtml",
@@ -654,7 +765,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 39,
               "Title": "Historico.cshtml",
               "DocumentMoniker": "C:\\Users\\2ds\\Documents\\ProjetoFujiyama\\projetoFuji\\Views\\Venda\\Historico.cshtml",
               "RelativeDocumentMoniker": "projetoFuji\\Views\\Venda\\Historico.cshtml",
@@ -666,7 +777,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 45,
               "Title": "Login.cshtml",
               "DocumentMoniker": "C:\\Users\\2ds\\Documents\\ProjetoFujiyama\\projetoFuji\\Views\\Cliente\\Login.cshtml",
               "RelativeDocumentMoniker": "projetoFuji\\Views\\Cliente\\Login.cshtml",
@@ -678,7 +789,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 41,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\2ds\\Documents\\ProjetoFujiyama\\projetoFuji\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "projetoFuji\\Views\\Shared\\_Layout.cshtml",
@@ -690,7 +801,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 46,
               "Title": "ProdutoCategoria.cs",
               "DocumentMoniker": "C:\\Users\\2ds\\Documents\\ProjetoFujiyama\\projetoFuji\\Models\\ProdutoCategoria.cs",
               "RelativeDocumentMoniker": "projetoFuji\\Models\\ProdutoCategoria.cs",
@@ -702,7 +813,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 43,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\2ds\\Documents\\ProjetoFujiyama\\projetoFuji\\Views\\Cliente\\Index.cshtml",
               "RelativeDocumentMoniker": "projetoFuji\\Views\\Cliente\\Index.cshtml",
@@ -714,7 +825,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 44,
               "Title": "_LayoutCliente.cshtml",
               "DocumentMoniker": "C:\\Users\\2ds\\Documents\\ProjetoFujiyama\\projetoFuji\\Views\\Shared\\_LayoutCliente.cshtml",
               "RelativeDocumentMoniker": "projetoFuji\\Views\\Shared\\_LayoutCliente.cshtml",
@@ -726,7 +837,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 47,
               "Title": "ItemProduto.cs",
               "DocumentMoniker": "C:\\Users\\2ds\\Documents\\ProjetoFujiyama\\projetoFuji\\Models\\ItemProduto.cs",
               "RelativeDocumentMoniker": "projetoFuji\\Models\\ItemProduto.cs",
@@ -738,7 +849,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 48,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\2ds\\Documents\\ProjetoFujiyama\\projetoFuji\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "projetoFuji\\Views\\Home\\Index.cshtml",
@@ -750,7 +861,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 49,
               "Title": "Cliente.cs",
               "DocumentMoniker": "C:\\Users\\2ds\\Documents\\ProjetoFujiyama\\projetoFuji\\Models\\Cliente.cs",
               "RelativeDocumentMoniker": "projetoFuji\\Models\\Cliente.cs",
@@ -762,19 +873,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
-              "Title": "site.js",
-              "DocumentMoniker": "C:\\Users\\2ds\\Documents\\ProjetoFujiyama\\projetoFuji\\wwwroot\\js\\site.js",
-              "RelativeDocumentMoniker": "projetoFuji\\wwwroot\\js\\site.js",
-              "ToolTip": "C:\\Users\\2ds\\Documents\\ProjetoFujiyama\\projetoFuji\\wwwroot\\js\\site.js",
-              "RelativeToolTip": "projetoFuji\\wwwroot\\js\\site.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAABBAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-12-04T15:27:18.071Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 50,
               "Title": "_Produto.cshtml",
               "DocumentMoniker": "C:\\Users\\2ds\\Documents\\ProjetoFujiyama\\projetoFuji\\Views\\Shared\\_Produto.cshtml",
               "RelativeDocumentMoniker": "projetoFuji\\Views\\Shared\\_Produto.cshtml",
@@ -786,7 +885,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 51,
               "Title": "FonecedorController.cs",
               "DocumentMoniker": "C:\\Users\\2ds\\Documents\\ProjetoFujiyama\\projetoFuji\\Controllers\\FonecedorController.cs",
               "RelativeDocumentMoniker": "projetoFuji\\Controllers\\FonecedorController.cs",
@@ -798,7 +897,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 52,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\2ds\\Documents\\ProjetoFujiyama\\projetoFuji\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "projetoFuji\\Controllers\\HomeController.cs",
@@ -810,7 +909,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 54,
               "Title": "Categoria.cs",
               "DocumentMoniker": "C:\\Users\\2ds\\Documents\\ProjetoFujiyama\\projetoFuji\\Models\\Categoria.cs",
               "RelativeDocumentMoniker": "projetoFuji\\Models\\Categoria.cs",
@@ -822,7 +921,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 53,
               "Title": "ClientePessoa.cs",
               "DocumentMoniker": "C:\\Users\\2ds\\Documents\\ProjetoFujiyama\\projetoFuji\\Models\\ClientePessoa.cs",
               "RelativeDocumentMoniker": "projetoFuji\\Models\\ClientePessoa.cs",
@@ -834,7 +933,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 55,
               "Title": "Produto.cs",
               "DocumentMoniker": "C:\\Users\\2ds\\Documents\\ProjetoFujiyama\\projetoFuji\\Models\\Produto.cs",
               "RelativeDocumentMoniker": "projetoFuji\\Models\\Produto.cs",
@@ -846,7 +945,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 56,
               "Title": "projetoFuji.csproj",
               "DocumentMoniker": "C:\\Users\\2ds\\Documents\\ProjetoFujiyama\\projetoFuji\\projetoFuji.csproj",
               "RelativeDocumentMoniker": "projetoFuji\\projetoFuji.csproj",
