@@ -442,4 +442,5 @@ function adicionarFormProduto() { // referente ao cadastrar venda
 }
 
 ```
-
+## Notas
+Commitamos sem querer com as informações do renato
