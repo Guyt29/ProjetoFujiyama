@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "dVDdnt8gJP26g18XVwmoP+7bvZeW3pj2hgKUL1h5l60=",
+  "Hash": "nL7oiNyQzbufn8DOyF778dWVpeToeMYTnSAKBPb8tPY=",
   "Source": "projetoFuji",
   "BasePath": "_content/projetoFuji",
   "Mode": "Default",
@@ -870,6 +870,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/css/site.css"
+    },
+    {
+      "Identity": "/home/davi/Music/ProjetoFujiyama/projetoFuji/wwwroot/css/sobrenos.css",
+      "SourceId": "projetoFuji",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/davi/Music/ProjetoFujiyama/projetoFuji/wwwroot/",
+      "BasePath": "_content/projetoFuji",
+      "RelativePath": "css/sobrenos.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/sobrenos.css"
     },
     {
       "Identity": "/home/davi/Music/ProjetoFujiyama/projetoFuji/wwwroot/favicon.ico",

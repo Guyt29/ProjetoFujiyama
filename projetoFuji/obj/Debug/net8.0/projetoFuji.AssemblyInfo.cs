@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("projetoFuji")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+eb09140bacb8f3f5dd454e0965decb6080d25bcc")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0c8d88df21e6441ed8445b8ab6237e3f62be448d")]
 [assembly: System.Reflection.AssemblyProductAttribute("projetoFuji")]
 [assembly: System.Reflection.AssemblyTitleAttribute("projetoFuji")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
