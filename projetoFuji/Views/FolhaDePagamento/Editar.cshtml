@@ -5,8 +5,15 @@
     Layout = "_LayoutDash";
 }
 
-<h1>Editar</h1>
+<nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item d-flex align-items-center"><a asp-area="" asp-controller="Admin" asp-action="DashBoard"><h2 class="breadCrumbText">Home</h2></a></li>
+        <li class="breadcrumb-item d-flex align-items-center"><a asp-area="" asp-controller="Funcionario" asp-action="Listar"><h2 class="breadCrumbText">Produtos</h2></a></li>
+        <li class="breadcrumb-item d-flex align-items-center"><h2 class="breadCrumbText">Folha De Pagamento</h2></li>
+        <li class="breadcrumb-item d-flex align-items-center"><h2 class="breadCrumbText">Editar</h2></li>
 
+    </ol>
+</nav>
 <h4>FolhaDePagamento</h4>
 <hr />
 <div class="row">

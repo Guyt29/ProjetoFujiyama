@@ -1,5 +1,18 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
+    string? mensagemAlerta = TempData["MensagemAlerta"] as string;
+
+
+}
+@if (!string.IsNullOrEmpty(mensagemAlerta)) // se a string n estiver vazia ou nula
+{
+    // alert mostrar o status do login
+    <script type="text/javascript">
+        window.onload = function(){ 
+           alert("@mensagemAlerta");
+        };
+    </script>
+
 }
 <div class="container-fluid fundoBrancoSeccao shadow">
     <div class="container fundoBrancoSeccao">
@@ -84,4 +97,59 @@
             </div>
         </div>
 	</div>
+</div>
+<div class="container fundoBrancoSeccao roundedSecao shadow mb-5">
+    <div class="faq pb-3">
+        <h2 class="text-center fw-bold mb-5 pt-3">Perguntas frequentes</h2>
+        <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                        O frete é grátis?
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <strong>Sim</strong>, o frete é grátis para São Paulo e Região.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Aceita devolução?
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <strong>Sim</strong>, se você precisar devolver um produto, fique tranquilo! Aceitamos devoluções em até 7 dias após o recebimento, desde que o item esteja sem uso, com etiqueta e na embalagem original. Para iniciar o processo, entre em contato com nosso atendimento informando o número do pedido e o motivo da devolução. Após a análise, enviaremos as instruções para o envio. Produtos danificados ou com defeito também podem ser devolvidos dentro desse prazo. Nossa missão é garantir sua satisfação com cada compra feita em nossa loja de produtos orientais.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Entrega em que região?
+                    </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <strong>Todas!</strong> Por meio de nossos parceiros de logística entregamos em qualquer região do Brasil em até 2 semanas desde o preparo do pedido. Caso haja algum problema no envio por favor contate nosso <a href="#">suporte</a> e resolveremos o mais rápido possivel.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingFour">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                        Produtos são importados?
+                    </button>
+                </h2>
+                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <strong>A maioria</strong>, mas trabalhamos com alguns artesanais.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>

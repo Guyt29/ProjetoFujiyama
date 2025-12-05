@@ -1,4 +1,4 @@
-/* DROP DATABASE IF EXISTS dbfujiyama;
+	/* DROP DATABASE IF EXISTS dbfujiyama;
     
     CREATE DATABASE IF NOT EXISTS dbFujiyama;
 	USE dbFujiyama;
@@ -75,18 +75,17 @@
 		foreign key(Cpf) references tbPessoa(Cpf)
 	); 
 
-	CREATE TABLE tbVenda(
-		Nf decimal(9,0) primary key, 
-		DataHora datetime, 
-		Funcionario decimal(11,0) not null, 
-		Cliente decimal(11,0) not null,
-		foreign key(Funcionario) references tbFuncionarios(cpf),
-		foreign key(Cliente) references tbCliente(cpf)
-	);
-
+CREATE TABLE tbVenda(
+	Nf varchar(9) primary key, 
+	DataHora datetime, 
+	Funcionario decimal(11,0), 
+	Cliente decimal(11,0) not null,
+	foreign key(Funcionario) references tbFuncionarios(cpf),
+	foreign key(Cliente) references tbCliente(cpf)
+);
 	CREATE TABLE tbItemProduto(
 		CodigoBarras decimal(13, 0),
-		Nf decimal(9, 0),
+		Nf varchar(9),
 		Qtd smallint not null, 
 		Preco decimal(8,2) not null,
 		primary key (CodigoBarras, Nf), 
@@ -170,27 +169,21 @@ END $$
 		senha = vSenha
 		WHERE Cpf = vCpf;
 	END $$
+                          
+DELIMITER $$ 
+CREATE PROCEDURE sp_insert_Venda(vNf varchar(9), vCliente decimal(11,0))
+BEGIN
+	IF NOT EXISTS(SELECT Nf FROM tbVenda WHERE Nf = vNf) THEN
+		INSERT INTO tbVenda (Nf, DataHora, Cliente)
+				VALUES 
+				(vNf, current_timestamp(), vCliente);
+    END IF;
+END $$
 
-/* SELECT 
-p.Cpf, p.Nome, p.Email, p.Genero, p.Idade, p.Telefone,
-f.Supervisor, f.Funcao, f.Salario, f.DataDeAdmissao, f.DataDemissao
-FROM tbPessoa p
-INNER JOIN tbFuncionarios f ON p.Cpf = f.Cpf;
-
-SELECT cpf  from tbCliente where cpf = '21234567891' && Senha = 'bombom';
-select * from tbcliente;
-DESCRIBE tbProdutoCategoria
-SELECT p.codigo_de_barras, p.Nome AS prodNome, c.Id, c.Nome AS cateNome, c.descricao
-FROM tbProdutoCategoria pc
-INNER JOIN tbProduto p ON p.codigo_de_barras = pc.codigo_de_barras
-INNER JOIN tbCategoria c on c.Id = pc.Categoria
-WHERE pc.codigo_de_barras = 1234567891011;
-SELECT * FROM tbProdutoCategoria;
-
-SELECT p.Cpf, p.Nome, p.Email, p.Genero, p.Idade, p.Telefone,c.Senha
-												 FROM tbCliente c
-                                                  INNER JOIN tbPessoa p On p.cpf = c.cpf
-                                                  WHERE c.Cpf = '21234567891'
-                                                  
-                                                  select * from tbcliente*/
-    
+DELIMITER $$
+CREATE PROCEDURE sp_insert_itemVenda(vNf varchar(9), vCodigoBarras decimal(13,0), vQtd smallint)
+BEGIN
+    IF NOT EXISTS(SELECT Nf FROM tbItemProduto WHERE Nf = vNf AND CodigoBarras = vCodigoBarras) THEN
+		INSERT INTO tbItemProduto VALUES (vCodigoBarras, vNf, vQtd, (Select Preco From tbProduto WHERE Codigo_de_barras = vCodigoBarras));
+    END IF;
+END $$

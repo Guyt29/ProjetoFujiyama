@@ -1,0 +1,61 @@
+﻿@model List<projetoFuji.Models.ItemProduto>
+
+@{
+    ViewData["Title"] = "Cadastrar";
+    Layout = "_LayoutCliente";
+    string? cpf = TempData.Peek("cpf") as string;
+}
+
+<h1>Comprar</h1>
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Cadastrar" id="compraProduto">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                
+                <label asp-for="@Model[0].Venda.Nf" class="control-label"></label> 
+                <input asp-for="@Model[0].Venda.Nf" class="form-control" /> <!--Vincula o input ao item produto da posição i-->
+                <span asp-validation-for="@Model[0].Venda.Nf" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="@Model[0].Produto.Codigo_de_barras" class="control-label"></label>
+                <input asp-for="@Model[0].Produto.Codigo_de_barras" class="form-control" />
+                <span asp-validation-for="@Model[0].Produto.Codigo_de_barras" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="@Model[0].Qtd" class="control-label"></label>
+                <input asp-for="@Model[0].Qtd" class="form-control" />
+                <span asp-validation-for="@Model[0].Qtd" class="text-danger"></span>
+            </div> 
+
+
+            <div class="form-group" id="grupoBotao">
+                <input type="submit" value="Comprar" class="btn btn-primary" /> 
+                <input type="button" value="Adicionar Mais" class="btn btn-primary" onclick="adicionarFormProduto()" /> <!--Adiciona mais campos dinamicamente-->
+            </div>
+        </form>
+    </div>
+</div>
+
+<div class="d-none">
+    <div class="form-group" id="CodigoBarrasInput">
+        <label asp-for="@Model[0].Produto.Codigo_de_barras" class="control-label"></label>
+        <input asp-for="@Model[0].Produto.Codigo_de_barras" class="form-control" />
+        <span asp-validation-for="@Model[0].Produto.Codigo_de_barras" class="text-danger"></span>
+    </div>
+    <div class="form-group" id="QtdInput">
+        <label asp-for="@Model[0].Qtd" class="control-label"></label>
+        <input asp-for="@Model[0].Qtd" class="form-control" />
+        <span asp-validation-for="@Model[0].Qtd" class="text-danger"></span>
+    </div>
+
+</div>
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

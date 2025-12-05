@@ -1,0 +1,59 @@
+﻿@model IEnumerable<projetoFuji.Models.Venda>
+
+@{
+    ViewData["Title"] = "Listar";
+    Layout = "_LayoutDash";
+}
+
+<h1>Listar</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table listar bg-white">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Nf)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DataHora)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Funcionario)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Cliente)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TotalVenda)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nf)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DataHora)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Funcionario)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Cliente)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TotalVenda)
+            </td>
+            <td>
+                    @Html.ActionLink("Editar", "Editar", new { nf = item.Nf }) |
+                @Html.ActionLink("Deletar", "Deletar", new { nf = item.Nf })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

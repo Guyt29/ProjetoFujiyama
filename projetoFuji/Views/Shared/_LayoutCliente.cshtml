@@ -16,15 +16,15 @@
 <body>
     <nav class="sideBar">
         <div class="marca">
-            <a asp-area="" asp-controller="Admin" asp-action="DashBoard">
+            <a asp-area="" asp-controller="Cliente" asp-action="Index">
                 <h1><span>FUJI</span>YAMA</h1>
             </a>
         </div>
         <hr/>
         <ul class="navbar-nav">
-            @if(cpf == null)
+            @if(cpf == null) // Verifica se o cliente não está cadastrado(não tem valor na tempdata) e caso sim mostra as opções de login/cadastro e esconde o restante
             {
-                <li class="nav-item dropdown">
+                <li class="nav-item dropdown"> 
                     <img src="~/assets/imagens/pessoaAzul.svg" class="iconeDash" />
                     <a class="nav-link dashLink" asp-controller="Cliente" asp-action="Cadastrar">
                         Cadastrar
@@ -47,7 +47,7 @@
                 </li>
                 <li class="nav-item dropdown">
                     <img src="~/assets/imagens/pessoaAzul.svg" class="iconeDash" />
-                    <a class="nav-link dashLink" asp-controller="Cliente" asp-action="Historico">
+                    <a class="nav-link dashLink" asp-controller="Venda" asp-action="Historico">
                         Histórico
                     </a>
                 </li>

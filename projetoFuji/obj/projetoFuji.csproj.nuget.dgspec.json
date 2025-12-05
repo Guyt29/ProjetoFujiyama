@@ -1,25 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "/home/davi/Music/ProjetoFujiyama/projetoFuji/projetoFuji.csproj": {}
+    "C:\\Users\\gustavo\\Desktop\\asdasd\\projetoFuji\\projetoFuji.csproj": {}
   },
   "projects": {
-    "/home/davi/Music/ProjetoFujiyama/projetoFuji/projetoFuji.csproj": {
+    "C:\\Users\\gustavo\\Desktop\\asdasd\\projetoFuji\\projetoFuji.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/davi/Music/ProjetoFujiyama/projetoFuji/projetoFuji.csproj",
+        "projectUniqueName": "C:\\Users\\gustavo\\Desktop\\asdasd\\projetoFuji\\projetoFuji.csproj",
         "projectName": "projetoFuji",
-        "projectPath": "/home/davi/Music/ProjetoFujiyama/projetoFuji/projetoFuji.csproj",
-        "packagesPath": "/home/davi/.nuget/packages/",
-        "outputPath": "/home/davi/Music/ProjetoFujiyama/projetoFuji/obj/",
+        "projectPath": "C:\\Users\\gustavo\\Desktop\\asdasd\\projetoFuji\\projetoFuji.csproj",
+        "packagesPath": "C:\\Users\\gustavo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\gustavo\\Desktop\\asdasd\\projetoFuji\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/davi/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\gustavo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -32,7 +38,13 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
@@ -66,7 +78,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.121/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

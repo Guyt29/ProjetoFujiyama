@@ -1,0 +1,41 @@
+﻿@model IEnumerable<projetoFuji.Models.Venda>
+
+@{
+    ViewData["Title"] = "Historico";
+    Layout = "_LayoutCliente";
+}
+
+<h1>Historico de compras</h1>
+
+
+<table class="table listar bg-white ">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Nf)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DataHora)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TotalVenda)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nf)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DataHora)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TotalVenda)
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
