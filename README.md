@@ -1,6 +1,8 @@
-nomes: Davi Okano e Gustavo Toyota
+###Projeto fujiyama (loja de produtos japonês).
 
-Projeto fujiyama (loja de produtos japonês).
+
+## nomes: Davi Okano e Gustavo Toyota
+
 
 explicação da models: 
 
@@ -8,7 +10,7 @@ A ideia era simular algumas pequenas funcionalidades que uma loja online de prod
 cliente, categoria, forncedor, produto, pessoa funcionário, entre outras. No geral ambas apresentavam a mesma estrutura, ex: 
 
 using System.ComponentModel.DataAnnotations;
-
+```
 namespace projetoFuji.Models
 {
     public class Produto => classe pública
@@ -20,7 +22,7 @@ namespace projetoFuji.Models
         public string? Codigo_de_barras { get; set; } // Declara o tipo do Codigo_de_barras, além dos métodos get e set, get: devolve o valor da propriedade, set: atribui um valor
     }
 }
-
+```
 No geral, todas às classes apresentavam a mesma lógica, mas diferentes de acordo com as suas necessidades
 
 
