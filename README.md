@@ -1,4 +1,4 @@
-# Projeto fujiyama (loja de produtos japonês).
+# Projeto fujiyama (loja de produtos japonês) ⛩️🌸🗻. 
 
 
 ## nomes: Davi Okano e Gustavo Toyota
@@ -340,5 +340,106 @@ public IActionResult DeletarProdutoCategoria(string codigo_de_barras, int id)
 
 ```
 
+## Layouts
 
+Foram usados 3 Layout: *_Layout* Layout da página principal e do quem somos, interface de um ecommerce normal.
+*_LayoutDash* Layout do dashboard, contém a parte admnistratica do site, aonde é cadastrado e editado os produtos forncedores, funcionários, etc.
+*_LayoutCliente* Layout baseado no dashboard, contém informações do cliente:
+```
+@{
+    string? cpf = TempData.Peek("Cpf") as string; // Tenta pegar o cpf para verificar se está logado
+}
+...
+        <ul class="navbar-nav">
+            @if(cpf == null) // Verifica se o cliente não está cadastrado(não tem valor na tempdata) e caso sim mostra as opções de login/cadastro e esconde o restante
+            {
+                <li class="nav-item dropdown"> 
+                    <img src="~/assets/imagens/pessoaAzul.svg" class="iconeDash" />
+                    <a class="nav-link dashLink" asp-controller="Cliente" asp-action="Cadastrar">
+                        Cadastrar
+                    </a>
+                </li>
+                <li class="nav-item dropdown">
+                    <img src="~/assets/imagens/pessoaAzul.svg" class="iconeDash" />
+                    <a class="nav-link dashLink" asp-controller="Cliente" asp-action="Login">
+                        Login
+                    </a>
+                </li>
+            }
+            else // esconde caso não esteja cadastrado
+            {
+                <li class="nav-item dropdown">
+                    <img src="~/assets/imagens/pessoaAzul.svg" class="iconeDash" />
+                    <a class="nav-link dashLink" asp-controller="Cliente" asp-action="Editar">
+                        Alterar Informações
+                    </a>
+                </li>
+                <li class="nav-item dropdown">
+                    <img src="~/assets/imagens/pessoaAzul.svg" class="iconeDash" />
+                    <a class="nav-link dashLink" asp-controller="Venda" asp-action="Historico">
+                        Histórico
+            ...
+```
+
+## Partials
+
+_Carrossel: Contem o banner da home;
+_Categorias: Contém as categorias da home;
+__Produto: Contém os produtos da home;
+
+## Organização dos Arquivos
+
+Banco: Contém o script de criação do banco de dados;
+
+Controller: Contém todas as controllers do projeto;
+
+Models: Contém toda as models do projeto;
+
+Views: Contém as pastas para as views
+    - Shared: Contém os layouts e partials.
+    
+appsettings.json: Contém a string de conexão com o banco de daos
+
+1. wwwroot: Contém os arquivos estáticos do site
+   - assets: todos os assets do site
+        - fonts: fontes utilizadas no site
+        - imagens: imagens usadas no site
+    - css: contém os estilos usado no site
+        - _LayouDash.css : estilo do dashboard
+        - site.css: estilo de todo o site
+        - sobrenos.css: estilo do sobre nós
+    - js: contém os scripts javascript do site
+        -site.js contém os scripts usados no site:
+
+```
+function alertar(mensagem) {
+    alert('@ViewBag.loginMensagem')
+}
+
+let i = 1 // contador do itemvenda
+  
+function adicionarFormProduto() { // referente ao cadastrar venda
+
+    const form = document.querySelector("#compraProduto") // pega o form
+    const grupoBotao = document.querySelector("#grupoBotao") //pega a div dos botoes
+    const inputCodigoTemplate = document.querySelector("#CodigoBarrasInput") // pega os templates dos inputs
+    const inputQtdTemplate = document.querySelector("#QtdInput")
+
+    const inputCodigoNovo = inputCodigoTemplate.cloneNode(true) // clona o templete, o true sendo para copiar seus filhos
+    const inputQtdNovo = inputQtdTemplate.cloneNode(true)
+    const separador = document.createElement("h2") // cria o h2
+    separador.innerText = `Produto ${i}` // muda o texto
+    inputCodigoNovo.querySelector('input').id = `z${i}__Produto_Codigo_de_barras` // muda o id para o asp net indentificar o registro
+    inputCodigoNovo.querySelector('input').name = `[${i}].Produto.Codigo_de_barras` // muda o name para o asp net indentificar o registro
+
+    inputQtdNovo.querySelector('input').id = `z${i}__Qtd` // muda o id para o asp net indentificar o registro
+    inputQtdNovo.querySelector('input').name = `[${i}].Qtd` // muda o name para o asp net indentificar o registro
+
+    i++
+    form.insertBefore(separador, grupoBotao) // inseri o separador antes do grupobotao
+    form.insertBefore(inputCodigoNovo, grupoBotao) // inseri o input antes do grupobotao
+    form.insertBefore(inputQtdNovo, grupoBotao) // inseri o input antes do grupobotao
+}
+
+```
 
